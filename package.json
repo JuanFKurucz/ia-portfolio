@@ -1,25 +1,26 @@
 {
-  "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
+  "name": "juanfkurucz-ia-portfolio",
+  "author": "JuanFKurucz",
   "title": "Gatsby V2 Tutorial Starter",
   "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "homepage": "https://juanfkurucz.com/ia-portfolio",
   "license": "MIT",
   "version": "0.0.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/JuanFKurucz/ia-portfolio"
   },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "rm -rf public && rm -rf .cache",
     "format-output": "prettier src/**/*.{js,jsx}",
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
-    "start": "npm run develop"
+    "start": "npm run develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@babel/core": "^7.6.0",
@@ -62,6 +63,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "gh-pages": "^3.2.3",
     "lighthouse": "^3.2.1",
     "prettier": "^1.18.2"
   },
