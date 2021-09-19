@@ -13,7 +13,7 @@ En este ejercicio se nos pide hacer un proceso similar a lo que venimos haciendo
 El paso a paso del ejercicio está realizado en el notebook siguiente:
 
 - [UT03_PD5.ipynb](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/UT03_PD5.ipynb)
-- También está disponible el ejercicio similar realizado en RapidMiner [ut03ta6.rmp(https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/ut03ta6.rmp)
+- También está disponible el ejercicio similar realizado en RapidMiner [ut03ta6.rmp](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/ut03ta6.rmp)
 
 Se puede remitir a los archivos de datos como de salida en los siguientes enlaces:
 
