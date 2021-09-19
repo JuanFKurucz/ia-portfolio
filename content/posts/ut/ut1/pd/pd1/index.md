@@ -3,7 +3,7 @@ pathPrefix: '/'
 path: "/pd/ut1/pd1"
 cover: "./CRISP-DM.png"
 date: "2021-08-13"
-title: "UT1PD1 -Practica Domiciliaria: Introducción a ML"
+title: "UT1PD1 - Practica Domiciliaria: Introducción a ML"
 published: true
 tags: ['Practica domiciliaria','UT1','Introducción al Aprendizaje Automático']
 ---
@@ -12,7 +12,7 @@ En este caso de estudio se analizara una de las problematicas tradicionales en i
 
 Se utilizara este caso de estudio ya que es recomendado como el mejor primer caso de estudio apra analizar y entender diferentes problematicas del rubro.
 
-# 1. Ejercicio 1: ¿Qué es “Machine Learning”?
+# Ejercicio 1: ¿Qué es “Machine Learning”?
 
 ## Definiciones de Machine learning:
 
