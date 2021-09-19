@@ -3,7 +3,7 @@ pathPrefix: '/'
 path: "/pd/ut2/pd1"
 cover: "./rapidminer.png"
 date: "2021-08-13"
-title: "UT2PD1 - Practica Domiciliaria: Introducción a ML"
+title: "UT2PD1 - Procesamiento previo de los datos"
 published: true
 tags: ['Practica domiciliaria','UT2','Tratamiento previo de los datos y fundamentos de los algoritmos de ML']
 ---
