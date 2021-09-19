@@ -3,7 +3,7 @@ pathPrefix: '/'
 path: "/pd/ut1/pd1"
 cover: "./CRISP-DM.png"
 date: "2021-08-13"
-title: "Practica Domiciliaria: Introducción a ML"
+title: "UT1PD1 -Practica Domiciliaria: Introducción a ML"
 published: true
 tags: ['Practica domiciliaria','UT1','Introducción al Aprendizaje Automático']
 ---
