@@ -1,7 +1,7 @@
 ---
 path: "/about"
 cover: "./blocks.jpg"
-date: "2021-09-07"
+date: "2021-01-01"
 title: "Sobre mi"
 published: true
 tags: ['other']
