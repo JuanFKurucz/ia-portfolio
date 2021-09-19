@@ -52,4 +52,4 @@ Muestra de datos identicos entre calculos de Excel y RapidMiner:
 ![RapidMiner](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/rapidminer.png)
 ![Excel](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/excel.png)
 
-Archivo excel: [https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/UT1_PD2 - Juan Francisco Kurucz](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/UT1_PD2 - Juan Francisco Kurucz)
+Archivo excel: [https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut1/pd/pd2/UT1_PD2%20-%20Juan%20Francisco%20Kurucz.xlsx?raw=true](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut1/pd/pd2/UT1_PD2%20-%20Juan%20Francisco%20Kurucz.xlsx?raw=true)
