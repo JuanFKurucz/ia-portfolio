@@ -60,7 +60,7 @@
         <parameter key="filters_logic_and" value="true"/>
         <parameter key="filters_check_metadata" value="true"/>
       </operator>
-      <operator activated="true" class="read_csv" compatibility="9.8.001" expanded="true" height="68" name="Evaluation" width="90" x="447" y="187">
+      <operator activated="true" class="read_csv" compatibility="9.8.001" expanded="true" height="68" name="Evaluation" width="90" x="313" y="187">
         <parameter key="csv_file" value="/Users/pancho/Downloads/sports/sports_Scoring.csv"/>
         <parameter key="column_separators" value=","/>
         <parameter key="trim_lines" value="false"/>
@@ -121,10 +121,6 @@
         <parameter key="max" value="1.0"/>
         <parameter key="allow_negative_values" value="false"/>
       </operator>
-      <operator activated="true" class="apply_model" compatibility="9.8.001" expanded="true" height="82" name="Apply Model (2)" width="90" x="648" y="187">
-        <list key="application_parameters"/>
-        <parameter key="create_view" value="false"/>
-      </operator>
       <operator activated="true" class="detect_outlier_distances" compatibility="9.8.001" expanded="true" height="82" name="Detect Outlier (Distances)" width="90" x="648" y="34">
         <parameter key="number_of_neighbors" value="10"/>
         <parameter key="number_of_outliers" value="10"/>
@@ -143,6 +139,21 @@
       <operator activated="true" class="linear_discriminant_analysis" compatibility="9.8.001" expanded="true" height="82" name="LDA" width="90" x="916" y="34">
         <parameter key="approximate_covariance_inverse" value="true"/>
       </operator>
+      <operator activated="true" class="filter_examples" compatibility="9.8.001" expanded="true" height="103" name="Filter Examples (3)" width="90" x="447" y="187">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="CapacidadDecision.ge.3"/>
+          <parameter key="filters_entry_key" value="CapacidadDecision.le.100"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.8.001" expanded="true" height="82" name="Apply Model (2)" width="90" x="648" y="187">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
       <operator activated="true" class="apply_model" compatibility="9.8.001" expanded="true" height="82" name="Apply Model" width="90" x="782" y="187">
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
@@ -158,14 +169,15 @@
       </operator>
       <connect from_op="Training" from_port="output" to_op="Filter Examples" to_port="example set input"/>
       <connect from_op="Filter Examples" from_port="example set output" to_op="Set Role" to_port="example set input"/>
-      <connect from_op="Evaluation" from_port="output" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Evaluation" from_port="output" to_op="Filter Examples (3)" to_port="example set input"/>
       <connect from_op="Set Role" from_port="example set output" to_op="Normalize" to_port="example set input"/>
       <connect from_op="Normalize" from_port="example set output" to_op="Detect Outlier (Distances)" to_port="example set input"/>
       <connect from_op="Normalize" from_port="preprocessing model" to_op="Apply Model (2)" to_port="model"/>
-      <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Apply Model" to_port="unlabelled data"/>
       <connect from_op="Detect Outlier (Distances)" from_port="example set output" to_op="Filter Examples (2)" to_port="example set input"/>
       <connect from_op="Filter Examples (2)" from_port="example set output" to_op="LDA" to_port="training set"/>
       <connect from_op="LDA" from_port="model" to_op="Apply Model" to_port="model"/>
+      <connect from_op="Filter Examples (3)" from_port="example set output" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Apply Model" to_port="unlabelled data"/>
       <connect from_op="Apply Model" from_port="labelled data" to_op="Write CSV" to_port="input"/>
       <connect from_op="Write CSV" from_port="through" to_port="result 1"/>
       <portSpacing port="source_input 1" spacing="0"/>
