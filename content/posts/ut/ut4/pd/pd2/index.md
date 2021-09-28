@@ -78,7 +78,7 @@ Acepta cambiar el nombre de la columna de predicción
 
 ## a. Observar cómo se grafica el rendimiento del algoritmo AD regresión
 
-![plot](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd2/plot.png)
+![plot](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd2/plot.png?raw=true)
 
 ## b. Revisar los parámetros disponibles, comentar.
 
@@ -92,4 +92,4 @@ Computa diferentes tipos de métricas como mean absolute error, mean squared err
 
 ## b. ¿qué resultados obtenemos?
 
-![results](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd2/results.png)
+![results](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd2/results.png?raw=true)
