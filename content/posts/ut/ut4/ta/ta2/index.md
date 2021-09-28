@@ -5,7 +5,7 @@ cover: "./rapidminer.png"
 date: "2021-09-21"
 title: "UT4TA2 - Trabajo de Aplicación 2"
 published: true
-tags: ['Trabajo de Aplicación','UT4','Algoritmos no lineales']
+tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales']
 ---
 
 En este trabajo de aplicación se busca utilizar árboles de decisiones en RapidMiner para atacar la problemática de una compañía de venta de dispositivos electrónicos en línea.
@@ -93,6 +93,8 @@ El proceso completo en RapidMiner se puede ver a continuación:
 ![rapidminer](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/rapidminer.png?raw=true)
 
 # Deployment
+
+Este modelo puede ser usado en producción como software que ayude a identificar posibles clientes a un equipo de ventas para ver como indagar y acercarse a los mismos. 
 
 
 [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta2.rmp)
