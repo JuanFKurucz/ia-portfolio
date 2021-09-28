@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
-import { Header, PostList } from 'components';
+import { Header, PostList, TagsBlock } from 'components';
 import { Layout } from 'layouts';
 
 const PostWrapper = styled.div`
@@ -22,10 +22,14 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+  const tags = ["Caso de estudio","Trabajo de Aplicacion","Practica domiciliaria"];
+
   return (
     <Layout>
       <Helmet title={'Inteligencia Artificial Portafolio'} />
-      <Header title="Juan Francisco Kurucz - Portafolio">Portafolio de inteligencia artificial</Header>
+      <Header title="Juan Francisco Kurucz - Portafolio">Portafolio de inteligencia artificial
+      <TagsBlock list={tags || []} />
+      </Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
