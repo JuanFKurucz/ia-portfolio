@@ -60,7 +60,6 @@ module.exports = {
         display: 'standalone',
         icon: config.favicon,
       },
-    },
-    'gatsby-plugin-offline',
+    }
   ],
 };
