@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos no lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Introducción al Aprendizaje Automático</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/other</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Practica domiciliaria</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UT2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Tratamiento previo de los datos y fundamentos de los algoritmos de ML</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UT1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UT2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Introducción al Aprendizaje Automático</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UT3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Trabajo de Aplicacion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UT4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/other</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos no lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut2/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut1/pd2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut1/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut2/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/pd2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
