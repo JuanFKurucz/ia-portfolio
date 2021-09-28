@@ -57,7 +57,7 @@ Las descripciones de los atributos parecen ser suficientes como para indagar en 
 Para la preparación de los datos se tomaron las siguientes medidas:
 - Detección de outliers tomando una distancia euclídea y 10 casos, estos fueron filtrados posteriormente
 - Target encoding, siendo que no es necesario estrictamente hacer esto para un modelo que usa árboles de decisión, vimos que aplicarlo mejoraba la performance en validación.
-- Normalización, con todos los datos ahora numéricos se normalizaron los rangos de los mismos
+- Normalización, con todos los datos ahora numéricos se normalizaron los rangos de los mismos, se aplicó una normalización de Z-transformation
 
 A continuación se puede ver el proceso de preprocesamiento que hicimos en RapidMiner
 
