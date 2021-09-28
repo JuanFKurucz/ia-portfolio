@@ -32,9 +32,7 @@ const Tag = ({ pageContext }) => {
   return (
     <Layout>
       <Helmet title={`${tagName} | ${config.siteTitle}`} />
-      <Header title={upperTag}>
-        <StyledLink to="/tags">All Tags</StyledLink>
-      </Header>
+      <Header title={upperTag}></Header>
       <Container>
         <Information>
           {posts.map((post, index) => (
