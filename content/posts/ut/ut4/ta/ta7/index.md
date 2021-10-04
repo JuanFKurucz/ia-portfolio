@@ -1,7 +1,7 @@
 ---
 pathPrefix: '/'
 path: "/pd/ut4/ta7"
-cover: "./grafica.jpeg"
+cover: "./grafica.png"
 date: "2021-09-28"
 title: "UT4TA7 - Trabajo de Aplicación 7"
 published: true
