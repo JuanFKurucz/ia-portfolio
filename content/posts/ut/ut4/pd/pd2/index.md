@@ -5,7 +5,7 @@ cover: "./plot.png"
 date: "2021-09-27"
 title: "UT4PD2 - PARTE 1 - Ejercicios Domiciliario 2"
 published: true
-tags: ['Practica domiciliaria','UT4','Algoritmos no lineales']
+tags: ['Practica domiciliaria','UT4','Algoritmos no lineales','Arbol de decision','KNIME']
 ---
 
 Modelo de árbol de decisión de regresión con KNIME.

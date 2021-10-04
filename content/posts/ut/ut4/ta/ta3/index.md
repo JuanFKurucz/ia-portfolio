@@ -5,7 +5,7 @@ cover: "./grafica.png"
 date: "2021-09-24"
 title: "UT4TA3 - Trabajo de Aplicación 3"
 published: true
-tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales']
+tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales','Arbol de decision','RapidMiner']
 ---
 
 En este trabajo de aplicación se busca utilizar árboles de decisiones en RapidMiner utilizando la problemática anteriormente vista de una compañía de venta de dispositivos electrónicos en línea. En este caso probaremos diferentes parametros del modelo para ver su fucionamiento.

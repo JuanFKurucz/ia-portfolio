@@ -5,7 +5,7 @@ cover: "./cover.png"
 date: "2021-09-10"
 title: "UT3TA6 - Trabajo de Aplicación 6"
 published: true
-tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales']
+tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','LDA','RapidMiner']
 ---
 
 En este trabajo de aplicación se busca utilizar LDA en RapidMiner para atacar la problemática de ayudar a jóvenes atletas a decidirse por un deporte en el cual tendrán una mejor performance.

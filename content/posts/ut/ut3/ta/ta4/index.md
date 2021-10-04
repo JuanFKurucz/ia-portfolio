@@ -5,7 +5,7 @@ cover: "./cover.png"
 date: "2021-09-07"
 title: "UT3TA4 - Trabajo de Aplicación 4"
 published: true
-tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales']
+tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Regresion Logistica','RapidMiner']
 ---
 
 En este trabajo de aplicación se busca utilizar regresión logística en RapidMiner para atacar la problemática de un cardiólogo para el apoyo de diagnóstico en un centro de salud.

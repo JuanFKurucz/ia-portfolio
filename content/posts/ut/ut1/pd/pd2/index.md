@@ -5,7 +5,7 @@ cover: "./blocks.jpg"
 date: "2021-08-13"
 title: "UT1PD2 - Practica Domiciliaria: Introducción a ML"
 published: true
-tags: ['Practica domiciliaria','UT1','Introducción al Aprendizaje Automático']
+tags: ['Practica domiciliaria','UT1','Introducción al Aprendizaje Automático','RapidMiner']
 ---
 
 Basándonos en el dataset [UCI - Iris Data Set](https://archive.ics.uci.edu/ml/datasets/Iris) se hará un análisis del mismo.

@@ -5,7 +5,7 @@ cover: "./blocks.jpg"
 date: "2021-09-14"
 title: "UT3TA7 - Trabajo de Aplicación 7"
 published: true
-tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales']
+tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Python']
 ---
 
 En este ejercicio se nos pide hacer un proceso similar a lo que venimos haciendo en RapidMiner pero esta vez en Python.

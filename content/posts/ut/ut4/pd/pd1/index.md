@@ -5,7 +5,7 @@ cover: "./result.png"
 date: "2021-09-27"
 title: "UT4PD1 - PARTE 1 - Ejercicios Domiciliario 1"
 published: true
-tags: ['Practica domiciliaria','UT4','Algoritmos no lineales']
+tags: ['Practica domiciliaria','UT4','Algoritmos no lineales','CART']
 ---
 En este ejercicio se nos plantea realizar el proceso de aprendizaje de un modelo CART paso a paso en una planilla de Excel, aprendiendo sobre un conjunto de datos [CART-dataset.csv](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd1/CART-dataset.csv) y realizar una   sobre un conjunto de datos de prueba posteriormente [CART-TEST.csv](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd1/CART-TEST.csv)
 

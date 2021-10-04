@@ -5,7 +5,7 @@ cover: "./rapidminer.png"
 date: "2021-08-13"
 title: "UT2PD1 - Procesamiento previo de los datos"
 published: true
-tags: ['Practica domiciliaria','UT2','Tratamiento previo de los datos y fundamentos de los algoritmos de ML']
+tags: ['Practica domiciliaria','UT2','Tratamiento previo de los datos y fundamentos de los algoritmos de ML','RapidMiner']
 ---
 
 # Ejercicio 1
