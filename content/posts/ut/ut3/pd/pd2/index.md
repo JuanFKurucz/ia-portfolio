@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/pd/ut3/pd2"
 cover: "./grafica.png"
-date: "2021-09-17"
+date: "2021-09-13"
 title: "UT3PD2 - Trabajos Domiciliario 2"
 published: true
 tags: ['Practica domiciliaria','UT3','Algoritmos lineales','Regresion logistica']
