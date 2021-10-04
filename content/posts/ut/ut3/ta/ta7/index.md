@@ -1,6 +1,6 @@
 ---
 pathPrefix: '/'
-path: "/pd/ut3/pd5"
+path: "/ta/ut3/ta7"
 cover: "./blocks.jpg"
 date: "2021-09-14"
 title: "UT3TA7 - Trabajo de Aplicación 7"
