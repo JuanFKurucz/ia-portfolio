@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/pd/ut3/ta6"
 cover: "./cover.png"
-date: "2021-09-07"
+date: "2021-09-10"
 title: "UT3TA6 - Trabajo de Aplicación 6"
 published: true
 tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales']
