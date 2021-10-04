@@ -1,8 +1,8 @@
 ---
 pathPrefix: '/'
-path: "/pd/ut4/ta2"
+path: "/pd/ut4/ta3"
 cover: "./grafica.png"
-date: "2021-09-21"
+date: "2021-09-24"
 title: "UT4TA3 - Trabajo de Aplicación 3"
 published: true
 tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales']
