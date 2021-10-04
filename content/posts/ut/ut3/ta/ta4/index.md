@@ -1,18 +1,18 @@
 ---
 pathPrefix: '/'
-path: "/pd/ut4/ta2"
+path: "/pd/ut3/ta4"
 cover: "./cover.png"
-date: "2021-09-21"
+date: "2021-09-07"
 title: "UT3TA4 - Trabajo de Aplicación 4"
 published: true
-tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales']
+tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales']
 ---
 
 En este trabajo de aplicación se busca utilizar regresión logística en RapidMiner para atacar la problemática de un cardiólogo para el apoyo de diagnóstico en un centro de salud.
 
 # Entendimiento del problema
 
-![escenario](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/cover.png)
+![escenario](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/cover.png?raw=true)
 
 El escenario descrito anteriormente consiste en lograr determinar los riesgos de los problemas coronarios. Específicamente lograr identificar posibles pacientes que puedan tener un segundo ataque cardiaco para poder prevenir estos con cambios en su estilo de vida.
 
@@ -47,14 +47,14 @@ Las descripciones de los atributos parecen ser suficientes como para indagar en 
 
     2. Verificar que los valores posibles son efectivamente de 2 clases (si/no)
     
-    ![2.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/2.2.png)
+    ![2.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/2.2.png?raw=true)
 
     Como se puede ver, solo existen dos valores.
 
 3. Verifica que el atributo “2do_Ataque_Corazon” esté configurado como variable de
 predicción, o agregar un “set role” posterior
 
-![3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/3.png)
+![3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/3.png?raw=true)
 
 4. Completa el proceso de importación de datos y agrega el dataset a un nuevo proceso principal en blanco. Renombrar el operador “retrieve” del dataset a “entrenamiento”.
 
@@ -83,16 +83,16 @@ Para ver si es necesario rellenar con determinados valores estos atributos, o a 
 
 # Ejercicio 2
 
-![ej2.0.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.0.png)
-![ej2.1.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.1.png)
-![ej2.2.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.2.png)
-![ej2.3.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.3.png)
+![ej2.0.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.0.png?raw=true)
+![ej2.1.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.1.png?raw=true)
+![ej2.2.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.2.png?raw=true)
+![ej2.3.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.3.png?raw=true)
 
 # Ejercicio 3
-
+.
 ## 1. Veamos la primera tupla
 
-![ej3.1.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej3.1.png)
+![ej3.1.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej3.1.png?raw=true)
 
 Hombre, soltero, 61 años, con sobrepeso, pero el colesterol es bajo (139 y la media es 178).
 - está en el medio de la clase para tratamiento de ansiedad (50) y ha participado en manejo del estrés
@@ -106,7 +106,7 @@ Ya que existe una confianza del 91,84% de que va a tener un segundo ataque cardi
 
 Hombre, divorciado, 66 años, está por encima de la media en todos los predictores (analizar)
 
-![ej3.2.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej3.2.png)
+![ej3.2.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej3.2.png?raw=true)
 
 En este caso nuestro modelo predijo con 99,3% de confianza que no va a tener un 2do ataque cardiaco.
 
