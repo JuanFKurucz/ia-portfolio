@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/pd/ut4/ta6"
 cover: "./grafica.jpeg"
-date: "2021-09-21"
+date: "2021-09-28"
 title: "UT4TA2 - Trabajo de Aplicación 6"
 published: true
 tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales','SVM','RapidMiner']
