@@ -33,7 +33,7 @@ A su vez se nos otorga una descripción de los mismos:
 - **Trat_ansiedad**: valor entre 0 y 100 indicativo del nivel natural de estrés de cada persona y de su habilidad para manejar este estrés. Poco tiempo después de que la persona se recuperara de su primer ataque, se le administró un test de ansiedad natural estándar. Los valores están tabulados en incrementos de 5. Un valor de 0 indicaría que la persona nunca siente ansiedad, presión o estrés en ninguna situación, mientras que un valor de 100 indicaría que la persona vive en un estado continuo de sobrecarga e incapaz de lidiar con su situación.
 - **2do_Ataque_Corazon**: Este atributo existe solamente en el dataset de entrenamiento. Es la variable objetivo o de predicción (“label” en RM). En el dataset de entrenamiento, este atributo contiene “SI” para aquellos individuos que han sufrido un segundo ataque al corazón, y “no” en caso contrario.
 
-Las descripciones de los atributos parecen ser suficientes como para indagar en profundidad, podemos ver que la mayoría son atributos polinomiales o binomiales, y en este caso tenemos solamente un valor continuo para la edad.
+Las descripciones de los atributos parecen ser suficientes como para indagar en profundidad.
 
 # Ejercicio 1
 
