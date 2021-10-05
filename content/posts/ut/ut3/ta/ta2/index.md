@@ -1,8 +1,8 @@
 ---
 pathPrefix: '/'
 path: "/pd/ut3/ta2"
-cover: "./cover.png"
-date: "2021-09-07"
+cover: "./residuals.png"
+date: "2021-09-03"
 title: "UT3TA2 - Trabajo de Aplicación 2"
 published: true
 tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Regresion lineal','RapidMiner']
