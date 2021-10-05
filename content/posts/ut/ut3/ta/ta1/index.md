@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/pd/ut3/ta1"
 cover: "./grafica1.png"
-date: "2021-09-03"
+date: "2021-08-31"
 title: "UT3TA1 - Trabajo de Aplicación 1"
 published: true
 tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Regresion lineal']
