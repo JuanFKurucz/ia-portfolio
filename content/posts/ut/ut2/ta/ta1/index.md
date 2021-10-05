@@ -101,3 +101,7 @@ Se nos indica observar la matriz de correlacion y sus pesos:
 ![matriz](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut2/ta/ta1/matrix.png)
 
 Como podemos ver un factor importante a tener en cuenta es la edad del pasajero, y siguiente es el passanger fare, tambien lo sera el passanger class.
+
+# Archivos
+
+- [ut2ta1.rmp](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut2/ta/ta1/ut2ta1.rmp)
