@@ -25,73 +25,73 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: valor de venta de la casa en dolares, esta es nuestra variable objetivo a predecir.
     - Tipo: real
     - Rango: 
-        -  - Minimo: 34900
-        -  - Maximo: 755000
-        -  - Promedio: 180921.195890
+        - Minimo: 34900
+        - Maximo: 755000
+        - Promedio: 180921.195890
  - MSSubClass: 
     - Descripción: identifica el tipo de construction
     - Tipo: categorico
     - Rango: 
-        -  - 20: 1-STORY 1946 & NEWER ALL STYLES
-        -  - 30: 1-STORY 1945 & OLDER
-        -  - 40: 1-STORY W/FINISHED ATTIC ALL AGES
-        -  - 45: 1-1/2 STORY - UNFINISHED ALL AGES
-        -  - 50: 1-1/2 STORY FINISHED ALL AGES
-        -  - 60: 2-STORY 1946 & NEWER
-        -  - 70: 2-STORY 1945 & OLDER
-        -  - 75: 2-1/2 STORY ALL AGES
-        -  - 80: SPLIT OR MULTI-LEVEL
-        -  - 85: SPLIT FOYER
-        -  - 90: DUPLEX - ALL STYLES AND AGES
-        -  - 120: 1-STORY PUD (Planned Unit Development) - 1946 & NEWER
-        -  - 150: 1-1/2 STORY PUD - ALL AGES
-        -  - 160: 2-STORY PUD - 1946 & NEWER
-        -  - 180: PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
-        -  - 190: 2 FAMILY CONVERSION - ALL STYLES AND AGES
+        - 20: 1-STORY 1946 & NEWER ALL STYLES
+        - 30: 1-STORY 1945 & OLDER
+        - 40: 1-STORY W/FINISHED ATTIC ALL AGES
+        - 45: 1-1/2 STORY - UNFINISHED ALL AGES
+        - 50: 1-1/2 STORY FINISHED ALL AGES
+        - 60: 2-STORY 1946 & NEWER
+        - 70: 2-STORY 1945 & OLDER
+        - 75: 2-1/2 STORY ALL AGES
+        - 80: SPLIT OR MULTI-LEVEL
+        - 85: SPLIT FOYER
+        - 90: DUPLEX - ALL STYLES AND AGES
+        - 120: 1-STORY PUD (Planned Unit Development) - 1946 & NEWER
+        - 150: 1-1/2 STORY PUD - ALL AGES
+        - 160: 2-STORY PUD - 1946 & NEWER
+        - 180: PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
+        - 190: 2 FAMILY CONVERSION - ALL STYLES AND AGES
  - MSZoning: 
     - Descripción: identifica la categoría de la zona
     - Tipo: categorico
     - Rango:
-        -  - A: Agriculture
-        -  - C: Commercial
-        -  - FV: Floating Village Residential
-        -  - I: Industrial
-        -  - RH: Residential High Density
-        -  - RL: Residential Low Density
-        -  - RP: Residential Low Density Park 
-        -  - RM: Residential Medium Density
+        - A: Agriculture
+        - C: Commercial
+        - FV: Floating Village Residential
+        - I: Industrial
+        - RH: Residential High Density
+        - RL: Residential Low Density
+        - RP: Residential Low Density Park 
+        - RM: Residential Medium Density
  - LotFrontage: 
     - Descripción: Distancia de calle en pies que está conectada con la propiedad.
     - Tipo: real
     - Rango: 
-        -  - Minimo: 21
-        -  - Maximo: 313
-        -  - Promedio: 70.049958
+        - Minimo: 21
+        - Maximo: 313
+        - Promedio: 70.049958
  - LotArea: 
     - Descripción: Tamaño del lote en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 1300
-        -  - Maximo: 215245
-        -  - Promedio: 10516.828082
+        - Minimo: 1300
+        - Maximo: 215245
+        - Promedio: 10516.828082
  - Street: 
     - Descripción: identifica el tipo de calle que se tiene para acceder a la propiedad.
     - Tipo: categorico
     - Rango:
-        -  - Grvl: Gravel: 
-        -  - Pave: Paved
+        - Grvl: Gravel
+        - Pave: Paved
  - Alley:
     - Descripción: identifica el tipo de callejón que se tiene para acceder a la propiedad.
     - Tipo: categorico
     - Rango:
-        -  - Grvl: Gravel: 
-        -  - Pave: Paved
-        -  - NA: No alley access
+        - Grvl: Gravel
+        - Pave: Paved
+        - NA: No alley access
  - LotShape:
     - Descripción: identifica el tipo estructura del lote
     - Tipo: categorico
     - Rango:
-        - Reg: Regular: 
+        - Reg: Regular
         - IR1: Slightly irregular
         - IR2: Moderately Irregular
         - IR3: Irregular
@@ -99,7 +99,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: identifica el relieve del lote
     - Tipo: categorico
     - Rango:
-        - Lvl: Near Flat/Level: 
+        - Lvl: Near Flat/Level
         - Bnk: Banked - Quick and significant rise from street grade to building
         - HLS: Hillside - Significant slope from side to side
         - Low: Depression
@@ -107,10 +107,10 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: identifica que tipo de utilidades están disponibles
     - Tipo: categorico
     - Rango:
-        - AllPub: All public Utilities (E,G,W,& S): 
+        - AllPub: All public Utilities (E,G,W,& S)
         - NoSewr: Electricity, Gas, and Water (Septic Tank)
         - NoSeWa: Electricity and Gas Only
-        - ELO: Electricity only: 
+        - ELO: Electricity only
  - LotConfig: Lot configuration
     - Descripción: identifica la configuración del lote
     - Tipo: categorico
@@ -125,7 +125,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Tipo: categorico
     - Rango:
         - Gtl: Gentle slope
-        - Mod: Moderate Slope: 
+        - Mod: Moderate Slope
         - Sev: Severe Slope
  - Neighborhood: 
     - Descripción: identifica el barrio en el que se encuentra el lote
@@ -174,7 +174,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Tipo: categorico
     - Rango: 
         - Artery: Adjacent to arterial street
-        - Feedr: Adjacent to feeder street: 
+        - Feedr: Adjacent to feeder street
         - Norm: Normal
         - RRNn: Within 200' of North-South Railroad
         - RRAn: Adjacent to North-South Railroad
@@ -186,7 +186,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: tipo de vivienda
     - Tipo: categorico
     - Rango: 
-        - 1Fam: Single-family Detached: 
+        - 1Fam: Single-family Detached
         - 2FmCon: Two-family Conversion; originally built as one-family dwelling
         - Duplx: Duplex
         - TwnhsE: Townhouse End Unit
@@ -225,9 +225,9 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
         - 9: Excellent
         - 8: Very Good
         - 7: Good
-        - 6: Above Average: 
+        - 6: Above Average
         - 5: Average
-        - 4: Below Average: 
+        - 4: Below Average
         - 3: Fair
         - 2: Poor
         - 1: Very Poor
@@ -235,16 +235,16 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: año de construcción
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 1872
-        -  - Maximo: 2010
-        -  - Promedio: 1971.267808
+        - Minimo: 1872
+        - Maximo: 2010
+        - Promedio: 1971.267808
  - YearRemodAdd: Remodel date
     - Descripción: año de remodelación, mismo año que construcción si no se ha remodelado
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 1950
-        -  - Maximo: 2010
-        -  - Promedio: 1984.865753
+        - Minimo: 1950
+        - Maximo: 2010
+        - Promedio: 1984.865753
  - RoofStyle: Type of roof
     - Descripción: tipo de techo
     - Tipo: categorico
@@ -282,7 +282,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
         - MetalSd: Metal Siding
         - Other: Other
         - Plywood: Plywood
-        - PreCast: PreCast: 
+        - PreCast: PreCast
         - Stone: Stone
         - Stucco: Stucco
         - VinylSd: Vinyl Siding
@@ -322,9 +322,9 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: área del revestimiento de mampostería en pies cuadrados
     - Tipo: real
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 1600
-        -  - Promedio: 103.685262
+        - Minimo: 0
+        - Maximo: 1600
+        - Promedio: 103.685262
  - ExterQual: Exterior material quality
     - Descripción: evalúa la calidad de los materiales usados en el exterior
     - Tipo: categorico
@@ -357,7 +357,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: evalúa la altura del sótano
     - Tipo: categorico
     - Rango: 
-        - Ex: Excellent (100+ inches): 
+        - Ex: Excellent (100+ inches)
         - Gd: Good (90-99 inches)
         - TA: Typical (80-89 inches)
         - Fa: Fair (70-79 inches)
@@ -388,7 +388,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Rango: 
         - GLQ: Good Living Quarters
         - ALQ: Average Living Quarters
-        - BLQ: Below Average Living Quarters: 
+        - BLQ: Below Average Living Quarters
         - Rec: Average Rec Room
         - LwQ: Low Quality
         - Unf: Unfinshed
@@ -397,16 +397,16 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: área del sótano finalizado en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 5644
-        -  - Promedio: 443.639726
+        - Minimo: 0
+        - Maximo: 5644
+        - Promedio: 443.639726
  - BsmtFinType2: Quality of second finished area (if present)
     - Descripción: calidad del área finalizada del sotano si existe otro
     - Tipo: categorico
     - Rango: 
         - GLQ: Good Living Quarters
         - ALQ: Average Living Quarters
-        - BLQ: Below Average Living Quarters: 
+        - BLQ: Below Average Living Quarters
         - Rec: Average Rec Room
         - LwQ: Low Quality
         - Unf: Unfinished
@@ -415,23 +415,23 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: área del segundo sótano finalizado en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 1474
-        -  - Promedio: 46.549315
+        - Minimo: 0
+        - Maximo: 1474
+        - Promedio: 46.549315
  - BsmtUnfSF: Unfinished square feet of basement area
     - Descripción: área no finalizada del sótano en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 2336.000000
-        -  - Promedio: 567.240411
+        - Minimo: 0
+        - Maximo: 2336.000000
+        - Promedio: 567.240411
  - TotalBsmtSF: Total square feet of basement area
     - Descripción: área total del sótano en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 6110.000000
-        -  - Promedio: 1057.429452
+        - Minimo: 0
+        - Maximo: 6110.000000
+        - Promedio: 1057.429452
  - Heating: Type of heating
     - Descripción: tipo de calefacción
     - Tipo: categorico
@@ -462,7 +462,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Tipo: categorico
     - Rango: 
         - SBrkr: Standard Circuit Breakers & Romex
-        - FuseA: Fuse Box over 60 AMP and all Romex wiring (Average): 
+        - FuseA: Fuse Box over 60 AMP and all Romex wiring (Average)
         - FuseF: 60 AMP Fuse Box and mostly Romex wiring (Fair)
         - FuseP: 60 AMP Fuse Box and mostly knob & tube wiring (poor)
         - Mix: Mixed
@@ -470,72 +470,72 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripcion: pies cuadrados del primer piso
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 334.000000
-        -  - Maximo: 4692.000000
-        -  - Promedio: 1162.626712
+        - Minimo: 334.000000
+        - Maximo: 4692.000000
+        - Promedio: 1162.626712
  - 2ndFlrSF: Second floor square feet
     - Descripcion: pies cuadrados del segundo piso
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 2065.000000
-        -  - Promedio: 346.992466
+        - Minimo: 0
+        - Maximo: 2065.000000
+        - Promedio: 346.992466
  - LowQualFinSF: Low quality finished square feet (all floors)
     - Descripcion: Pies cuadrados de finalizado de baja calidad
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 572.000000
-        -  - Promedio: 5.844521
+        - Minimo: 0
+        - Maximo: 572.000000
+        - Promedio: 5.844521
  - GrLivArea: Above grade (ground) living area square feet
     - Descripción: área en pies cuadrados de la superficie habilitable por encima del nivel del suelo
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 334.000000
-        -  - Maximo: 5642.000000
-        -  - Promedio: 1515.463699
+        - Minimo: 334.000000
+        - Maximo: 5642.000000
+        - Promedio: 1515.463699
  - BsmtFullBath: Basement full bathrooms
     - Descripción: baños completos en el sótano
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 3.000000
-        -  - Promedio: 0.425342
+        - Minimo: 0
+        - Maximo: 3.000000
+        - Promedio: 0.425342
  - BsmtHalfBath: Basement half bathrooms
     - Descripción: baños parciales en el sótano
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 2.000000
-        -  - Promedio: 0.057534
+        - Minimo: 0
+        - Maximo: 2.000000
+        - Promedio: 0.057534
  - FullBath: Full bathrooms above grade
     - Descripción: baños completos por encima del nivel del suelo
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 3.000000
-        -  - Promedio: 1.565068
+        - Minimo: 0
+        - Maximo: 3.000000
+        - Promedio: 1.565068
  - HalfBath: Half baths above grade
     - Descripción: baños parciales por encima del nivel del suelo
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 2.000000
-        -  - Promedio: 0.382877
+        - Minimo: 0
+        - Maximo: 2.000000
+        - Promedio: 0.382877
  - Bedroom: Number of bedrooms above basement level
     - Descripción: cuartos por encima del nivel del suelo
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 8.000000
-        -  - Promedio: 2.866438
+        - Minimo: 0
+        - Maximo: 8.000000
+        - Promedio: 2.866438
  - Kitchen: Number of kitchens
     - Descripción: número de cocinas
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 3.000000
-        -  - Promedio: 1.046575
+        - Minimo: 0
+        - Maximo: 3.000000
+        - Promedio: 1.046575
  - KitchenQual: Kitchen quality
     - Descripción: calidad de la cocina
     - Tipo: categorico
@@ -549,9 +549,9 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: total de habitaciones por encima del suelo sin incluir baños
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 2
-        -  - Maximo: 14.000000
-        -  - Promedio: 6.517808
+        - Minimo: 2
+        - Maximo: 14.000000
+        - Promedio: 6.517808
  - Functional: Home functionality rating
     - Descripción: evaluación de la funcionalidad de la casa
     - Tipo: categorico
@@ -568,9 +568,9 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: número de chimeneas
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 3.000000
-        -  - Promedio: 0.613014
+        - Minimo: 0
+        - Maximo: 3.000000
+        - Promedio: 0.613014
  - FireplaceQu: Fireplace quality
     - Descripción: calidad de chimenea
     - Tipo: categorico
@@ -596,31 +596,31 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: año en el que se construyó el estacionamiento
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 1900
-        -  - Maximo: 2010
-        -  - Promedio: 1978.506164
+        - Minimo: 1900
+        - Maximo: 2010
+        - Promedio: 1978.506164
  - GarageFinish: Interior finish of the garage
     - Descripción: tipo de finalización interior del estacionamiento
     - Tipo: categorico
     - Rango: 
         - Fin: Finished
-        - RFn: Rough Finished: 
+        - RFn: Rough Finished
         - Unf: Unfinished
         - NA: No Garage
  - GarageCars: Size of garage in car capacity
     - Descripción: cantidad de autos que entran en el estacionamiento
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 4.000000
-        -  - Promedio: 1.767123
+        - Minimo: 0
+        - Maximo: 4.000000
+        - Promedio: 1.767123
  - GarageArea: Size of garage in square feet
     - Descripción: tamaño del estacionamiento en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 1418.000000
-        -  - Promedio: 472.980137
+        - Minimo: 0
+        - Maximo: 1418.000000
+        - Promedio: 472.980137
  - GarageQual: Garage quality
     - Descripción: calidad del garaje
     - Tipo: categorico
@@ -652,44 +652,44 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: área de cubierta de madera en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 857.000000
-        -  - Promedio: 94.244521
+        - Minimo: 0
+        - Maximo: 857.000000
+        - Promedio: 94.244521
  - OpenPorchSF: Open porch area in square feet
     - Descripción: área del porche abierto en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 547.000000
-        -  - Promedio: 46.660274
+        - Minimo: 0
+        - Maximo: 547.000000
+        - Promedio: 46.660274
  - EnclosedPorch: Enclosed porch area in square feet
     - Descripción: área del porche adjunto en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 552.000000
-        -  - Promedio: 21.954110
+        - Minimo: 0
+        - Maximo: 552.000000
+        - Promedio: 21.954110
  - 3SsnPorch: Three season porch area in square feet
     - Descripción: área del porche de tres estaciones en pies cuadrados
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 508.000000
-        -  - Promedio: 3.409589
+        - Minimo: 0
+        - Maximo: 508.000000
+        - Promedio: 3.409589
  - ScreenPorch: Screen porch area in square feet
     - Descripción: área en pies cuadrados del porche de entrada
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 480.000000
-        -  - Promedio: 15.060959
+        - Minimo: 0
+        - Maximo: 480.000000
+        - Promedio: 15.060959
  - PoolArea: Pool area in square feet
     - Descripción: área en pies cuadrados de la piscina
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 738.000000
-        -  - Promedio: 2.758904
+        - Minimo: 0
+        - Maximo: 738.000000
+        - Promedio: 2.758904
  - PoolQC: Pool quality
     - Descripción: calidad de la piscina
     - Tipo: categorico
@@ -722,23 +722,23 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
     - Descripción: valor de la característica
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 0
-        -  - Maximo: 15500.000000
-        -  - Promedio: 43.489041
+        - Minimo: 0
+        - Maximo: 15500.000000
+        - Promedio: 43.489041
  - MoSold: Month Sold
     - Descripción: mes de la venta
     - Tipo: categorico
     - Rango: 
-        -  - Minimo: 1.000000
-        -  - Maximo: 12.000000
-        -  - Promedio: 6.321918
+        - Minimo: 1.000000
+        - Maximo: 12.000000
+        - Promedio: 6.321918
  - YrSold: Year Sold
     - Descripción: año de la venta
     - Tipo: entero
     - Rango: 
-        -  - Minimo: 2006.000000
-        -  - Maximo: 2010.000000
-        -  - Promedio: 2007.815753
+        - Minimo: 2006.000000
+        - Maximo: 2010.000000
+        - Promedio: 2007.815753
  - SaleType: Type of sale
     - Descripción: tipo de la venta
     - Tipo: categorico
@@ -760,7 +760,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
         - Normal: Normal Sale
         - Abnorml: Abnormal Sale -  trade, foreclosure, short sale
         - AdjLand: Adjoining Land Purchase
-        - Alloca: Allocation - two linked properties with separate deeds, typically condo with a garage unit: 
+        - Alloca: Allocation - two linked properties with separate deeds, typically condo with a garage unit
         - Family: Sale between family members
         - Partial: Home was not completed when last assessed (associated with New Homes)
 
@@ -782,7 +782,7 @@ Para los atributos numéricos estos se tratan como tales.
 
 Se identificaron filas con valores faltantes, para las cuales se asignaron las correspondientes etiquetas, y en los casos de no poder encontrar a qué etiqueta pertenecía se decidió eliminar estas filas (ya que eran unas pocas). Estos atributos principalmente transformaron valores `None` a sus correspondientes etiquetas `NA` de diferentes atributos, los cuales fueron `Alley`, `MasVnrType`, `BsmtQual`, `BsmtExposure`, `BsmtFinType1`, `BsmtFinType2`, `FireplaceQu`, `GarageType`, `GarageFinish`, `GarageQual`, `GarageCond`, `GarageYrBlt`, `PoolQC`, `Fence`, `MiscFeature`
 
-![missing_values](./assets/missing_values.png)
+![missing_values](https://github.com/JuanFKurucz/ia-portfolio/raw/main/content/posts/ca/ames-housing/assets/missing_values.png)
 
 También se identificó ruido en los datos, algunas etiquetas del conjunto de datos parecían tener typos (principalmente en el atributo `Exterior2nd`) donde se encontraron:
 - `Wd Shng` => `Wd Sdng`
@@ -840,6 +840,6 @@ Como se puede ver entrenar con todos los atributos dio mejores resultados, puede
 De todas formas, se pudo ver que la selección de este caso de estudio fue interesante ya que se encontraron muchos detalles a reparar en el conjunto de datos y a analizar de cómo resolver.
 
 
-[Enlace al notebook completo](./AMES.ipynb)
+[Enlace al notebook completo](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ca/ames-housing/AMES.ipynb)
 
 
