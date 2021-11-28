@@ -1,7 +1,7 @@
 ---
 pathPrefix: '/'
 path: "/ta/ut2/ta1"
-cover: "./rapidminer.png"
+cover: "./weight.png"
 date: "2021-08-30"
 title: "UT2TA1 - Trabajo de Aplicación 1"
 published: true
