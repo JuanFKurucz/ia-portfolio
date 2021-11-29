@@ -5,7 +5,7 @@ cover: "./CRISP-DM.png"
 date: "2021-08-13"
 title: "¿Qué es el Aprendizaje Automático o Machine Learning?"
 published: true
-tags: ['Aprendizaje Automático','Machine Learning','Data mining','CRISP-DM','TDSP','KDD','SEMMA','UCI','RapidMiner','Weka','Tensorflow','Keras','Pytorch','Scikit-learn','fastai','Pentaho','Pandas']
+tags: ['Introducción al Aprendizaje Automático','Machine Learning','Data mining','CRISP-DM','TDSP','KDD','SEMMA','UCI','RapidMiner','Weka','Tensorflow','Keras','Pytorch','Scikit-learn','fastai','Pentaho','Pandas','Census income Dataset']
 ---
 
 En este artículo nos introduciremos al aprendizaje automático, buscaremos definirlo y mostraremos diferentes herramientas que podemos usar en esta área.
