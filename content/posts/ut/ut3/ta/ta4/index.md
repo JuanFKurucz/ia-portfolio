@@ -80,6 +80,8 @@ A continuación veremos capturas del Pipeline creado
 
 # Resultados
 
+A continuación veremos los resultados y analizaremos estos en profundidad
+
 ## Resultados del pipeline
 
 ![ej2.2.png](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta4/ej2.2.png?raw=true)
