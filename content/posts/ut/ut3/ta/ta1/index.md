@@ -47,4 +47,25 @@ En base a los coeficientes aprendidos, ahora podemos aplicar estos en valores nu
 
 # Archivos:
 
-- [ut3ta1.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/ut3ta1.xlsx)
+- [excel_1.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_1.xlsx)
+
+
+# Aplicación en otro conjunto de datos
+
+![grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_grafica.png?raw=true)
+
+A continuación podemos ver un calculo primario para los parámetros:
+![tabla1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_tabla1.png?raw=true)
+
+Y a continuación podemos ver ciclos de entrenamiento del modelo:
+![tabla2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_tabla2_reduced.png?raw=true)
+
+También se pueden ver los errores obtenidos a lo largo de estos ciclos:
+![errores](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_grafica2.png?raw=true)
+
+
+Todos estos valores y cálculos pueden ser vistos en el siguiente archivo:
+
+- [excel_2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_excel_2.xlsx)
+
+
