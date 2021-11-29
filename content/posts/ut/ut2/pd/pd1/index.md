@@ -3,15 +3,16 @@ pathPrefix: '/'
 path: "/pd/ut2/pd1"
 cover: "./rapidminer.png"
 date: "2021-08-13"
-title: "UT2PD1 - Procesamiento previo de los datos"
+title: "Procesamiento previo de datos de UCI - Wine Data Set en RapidMiner"
 published: true
-tags: ['Practica domiciliaria','UT2','Tratamiento previo de los datos y fundamentos de los algoritmos de ML','RapidMiner']
+tags: ['Tratamiento previo de los datos y fundamentos de los algoritmos de ML', 'RapidMiner', 'Wine dataset', 'UCI', 'Missing values', 'Outlier detection', 'Naive bayes', 'Split data', 'Performance']
 ---
 
-# Ejercicio 1
+En este artículo pondremos en práctica el tratamiento previo de datos utilizando RapidMiner, para esto utilizaremos el dataset [UCI - Wine Data Set](https://archive.ics.uci.edu/ml/datasets/wine) a modo de prueba y la herramienta de RapidMiner. Seguiremos los tutoriales de RapidMiner para poner en práctica los diferentes flujos de tratamientos de datos que este provee.
 
-En RapidMiner Studio, ve a la sección de Help / Tutorials, y de la parte “Prepare Data” completa
-los tutoriales:
+# Tutoriales de RapidMiner
+
+En RapidMiner Studio, podemos ir a la sección de Help / Tutorials, y en la parte “Prepare Data” podremos encontrar los siguientes tutoriales:
 1. ”Handling Missing Values” y
 2. ”Normalization and Outlier detection”
 
@@ -22,17 +23,16 @@ Para el conjunto de datos tratados pudimos ver que la normalización es necesari
 [Archivo del tutorial "Handling Missing Values"](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut2/pd/pd2/ej1.rmp)
 [Archivo del tutorial "Normalization and Outlier detection"](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut2/pd/pd2/ej2.rmp)
 
-# Ejercicio 2
+# Tratamiento de datos en UCI - Wine Data Set
 
-# Paso 1: obtencion del dataset
+Ahora aplicaremos lo aprendido anteriormente en el dataset UCI - Wine Data Set
 
-Utilizaremos el dataset [UCI - Wine Data Set](https://archive.ics.uci.edu/ml/datasets/wine) para el siguiente ejercicio.
 
-# Paso 2: analisis del problema a resolver
+## Análisis del problema a resolver
 
-Segun la informacion provista en UCI, una de las problematicas provistas a resolver es la classificacion para identificar entre 3 tipos de vinos.
+Según la información provista en UCI, una de las problemáticas provistas a resolver es la clasificación para identificar entre 3 tipos de vinos.
 
-|   Columna |   Tipo    |   Valores faltantes   |   Minimo  |   Maximo  |   Promedio    |
+|   Columna |   Tipo    |   Valores faltantes   |   Mínimo  |   Máximo  |   Promedio    |
 |   -----------   |   -----------   |   -----------   |   -----------   |   -----------   |   -----------   |
 |   class   |   Integer |   0   |   1   |   3   |   1.94    |
 |   alcohol   |   Real |   0   |   11.03   |   14.83   |   13.00    |
@@ -48,6 +48,8 @@ Segun la informacion provista en UCI, una de las problematicas provistas a resol
 |   hue   |   Real |   0   |   0.48   |   1.71   |   0.96    |
 |   od_diluted_wines   |   Real |   0   |   1.27   |   4.00   |   2.61    |
 |   proline   |   Integer |   0   |   278   |   1680   |   746.89    |
+
+## Pipeline
 
 Aplicando un algoritmo para detectar outliers por distancia sin editar los datos podemos detectar 10 de estos como outliers.
 
@@ -65,6 +67,6 @@ Para los datos que se hicieron arreglos:
 
 Se puede ver que para este caso los datos no tocados dieron mejores, pero esto puede ser por el split actual de datos o porque el modelo generado en el segundo caso es actualmente más genérico (generaliza más) que el primero provisto.
 
-Puede que de todas formas el algoritmo de Naive Bayes no requiera modificaciones tan especificas de esta información y las resuelva internamente de otras formas.
+Puede que de todas formas el algoritmo de Naive Bayes no requiera modificaciones tan específicas de esta información y las resuelva internamente de otras formas.
 
 [Archivo del pipeline de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut2/pd/pd1/pipeline.rmp)
