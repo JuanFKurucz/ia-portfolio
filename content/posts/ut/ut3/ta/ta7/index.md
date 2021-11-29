@@ -1,22 +1,23 @@
 ---
 pathPrefix: '/'
-path: "/ta/ut3/ta7"
+path: "/ut/ut3/ta7"
 cover: "./blocks.jpg"
 date: "2021-09-14"
-title: "UT3TA7 - Trabajo de Aplicación 7"
+title: "Utilización de Linear Discriminant Analysis (LDA), Regresion Logistica en Python"
 published: true
-tags: ['Trabajo de aplicacion','UT3','Algoritmos lineales','Python']
+tags: ['Algoritmos lineales','Python','Linear Discriminant Analysis', 'Regresion Logistica','matplotlib','pandas','sklearn']
 ---
 
-En este ejercicio se nos pide hacer un proceso similar a lo que venimos haciendo en RapidMiner pero esta vez en Python.
+En este articulo se busca realizar el mismo proceso hecho en [Utilización de Linear Discriminant Analysis (LDA) en RapidMiner](/ut/ut3/ta6) pero esta vez en Python.
 
 El paso a paso del ejercicio está realizado en el notebook siguiente:
 
-- [UT03_TA7.ipynb](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta7/UT03_TA7.ipynb)
-- También está disponible el ejercicio similar realizado en RapidMiner [TA6.rmp](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta6/TA6.rmp)
-- Y una practica domiciliaria similar: [UT3PD5 - Análisis Discriminante Lineal utilizando Python y scikit-learn](/pd/ut3/pd5)
+- [notebook.ipynb](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta7/notebook.ipynb)
 
 Se puede remitir a los archivos de datos como de salida en los siguientes enlaces:
 
 Datos:
 - [sample.csv](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta7/sample.csv)
+
+
+Como podemos ver, podemos obtener resultados similares de ambas formas y de manera muy simple.
