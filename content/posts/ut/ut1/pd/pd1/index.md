@@ -3,32 +3,34 @@ pathPrefix: '/'
 path: "/pd/ut1/pd1"
 cover: "./CRISP-DM.png"
 date: "2021-08-13"
-title: "UT1PD1 - Practica Domiciliaria: Introducción a ML"
+title: "¿Qué es el Aprendizaje Automático o Machine Learning?"
 published: true
-tags: ['Practica domiciliaria','UT1','Introducción al Aprendizaje Automático']
+tags: ['Aprendizaje Automático','Machine Learning','Data mining','CRISP-DM','TDSP','KDD','SEMMA','UCI','RapidMiner','Weka','Tensorflow','Keras','Pytorch','Scikit-learn','fastai','Pentaho','Pandas']
 ---
 
-En este caso de estudio se analizara una de las problematicas tradicionales en inteligencia artificial la cual es el estudio del conjunto de datos de Titanic para predecir que pasajeros se salvarian al momento previo de partida.
+En este artículo nos introduciremos al aprendizaje automático, buscaremos definirlo y mostraremos diferentes herramientas que podemos usar en esta área.
 
-Se utilizara este caso de estudio ya que es recomendado como el mejor primer caso de estudio apra analizar y entender diferentes problematicas del rubro.
+# ¿Qué es “Machine Learning”?
 
-# Ejercicio 1: ¿Qué es “Machine Learning”?
+Si buscamos en internet, nos podremos encontrar con diferentes definiciones, algunas de ellas son:
 
 ## Definiciones de Machine learning:
 
-“Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.” - [Machine Learning: What it is and why it matters. (s. f.). SAS. Recuperado 12 de agosto de 2021, de https://www.sas.com/en_us/insights/analytics/machine-learning.html](https://www.sas.com/en_us/insights/analytics/machine-learning.html)
+- “Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.” - [Machine Learning: What it is and why it matters. (s. f.). SAS. Recuperado 12 de agosto de 2021, de https://www.sas.com/en_us/insights/analytics/machine-learning.html](https://www.sas.com/en_us/insights/analytics/machine-learning.html)
 
 
-“Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.” - [Wikipedia contributors. (2021, 10 agosto). Machine learning. Wikipedia. https://en.wikipedia.org/wiki/Machine_learning](https://en.wikipedia.org/wiki/Machine_learning)
+- “Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.” - [Wikipedia contributors. (2021, 10 agosto). Machine learning. Wikipedia. https://en.wikipedia.org/wiki/Machine_learning](https://en.wikipedia.org/wiki/Machine_learning)
 
-“Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.” - [Education, I. C. (2021, 12 agosto). Machine Learning. IBM. https://www.ibm.com/cloud/learn/machine-learning](https://www.ibm.com/cloud/learn/machine-learning)
+- “Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.” - [Education, I. C. (2021, 12 agosto). Machine Learning. IBM. https://www.ibm.com/cloud/learn/machine-learning](https://www.ibm.com/cloud/learn/machine-learning)
 
 Como se puede ver no hay una definición única exacta de lo que es machine learning si no varias descripciones y conceptos empleados en el rubro.
 
 ## ¿Qué tiene en común y en qué se diferencia de “Inteligencia Artificial”?
-Como se puede ver en las definiciones anterior, especialmente en la segunda, Machine Learning en un subconjunto de Inteligencia Artificial, es decir Machine Learning es un tipo de inteligencia Artificial y existen otros tipos de inteligencias artificiales que no son Machine Learning.
+
+Como se puede ver en las definiciones anteriores, especialmente en la segunda, Machine Learning es un subconjunto de Inteligencia Artificial, es decir Machine Learning es un tipo de inteligencia artificial y existen otros tipos de inteligencias artificiales que no son Machine Learning.
 
 ## ¿Qué tiene en común y en qué se diferencia de “Análisis Estadístico”?
+
 Como se puede ver en la primera definición, machine learning emplea el análisis de datos, lo cual tiene en cuenta el análisis estadístico de los mismos, pero no es solo esto, sino que va más allá del análisis a emplear un resultado a partir de estos. Por ende el análisis estadístico es parte del proceso de Machine Learning.
 
 ## ¿Cómo se diferencia con Data Mining?
@@ -51,11 +53,11 @@ La referencia de Wikipedia nos ofrece una lista resumida de diferentes aplicacio
 13. Otros…
 
 
-# Ejercicio 2: Breve investigación de herramientas y plataformas para Machine Learning.
+# Herramientas y plataformas para Machine Learning.
 
-En base a la publiacion [11 Most Popular Machine Learning Software Tools in 2021. (2021, 5 agosto). Software Testing Help. https://www.softwaretestinghelp.com/machine-learning-tools/](https://www.softwaretestinghelp.com/machine-learning-tools/) se pudo obtener la siguiente informacion
+En base a la publicación [11 Most Popular Machine Learning Software Tools in 2021. (2021, 5 agosto). Software Testing Help. https://www.softwaretestinghelp.com/machine-learning-tools/](https://www.softwaretestinghelp.com/machine-learning-tools/) nos brinda las siguientes herramientas disponibles:
 
-|   Herrmienta    |   URL   |   Descripción |   Funcionalidades |   Integración |
+|   Herramienta    |   URL   |   Descripción |   Funcionalidades |   Integración |
 |   -----------   |   -----------   |   -----------   |   -----------   |   -----------   |
 |   RapidMiner  |   https://rapidminer.com/   |   Herramienta gráfica para validar y modelar inteligencias artificiales   |   Tratamiento de datos    |   Algoritmos, Prueba y validación  |   Embebido y Cloud |
 |   Weka  |   https://www.cs.waikato.ac.nz/ml/weka/  |   Parecido a RapidMiner  |   Tratamiento de datos, Algoritmos, Prueba y validación  |   Embebido |
@@ -66,7 +68,9 @@ En base a la publiacion [11 Most Popular Machine Learning Software Tools in 2021
 |   Pentaho  |   https://www.hitachivantara.com/en-us/products/data-management-analytics.html  |   Herramienta gráfica para tratado de datos ETL, BI.  |   Tratamiento de datos  |   Embebido/Cloud   |
 |   Pandas  |   https://pandas.pydata.org/  |   Biblioteca para tratar y visualizar datos  |   Tratamiento de datos  |   Anywhere   |
 
-# Ejercicio 3: Procesos de “Data Science”
+Cabe aclarar que esta es una lista acotada y día a día se lanzan nuevas herramientas al mercado.
+
+# Procesos de “Data Science”
 
 Busca información detallada del proceso CRISP-DM y realiza un breve resumen.
 
@@ -115,17 +119,17 @@ Pasos:
 Los ciclos de vida mencionados anteriormente son respectivamente similares en algunos aspectos, cambian un poco la descripción de los procesos, pero todos se asemejan incluyendo los mismos pasos.
 
 
-# Ejercicio 4: Comparación herramientas
+# Comparación herramientas
 
-|   Herrmienta    |   Algoritmos   |
+|   Herramienta    |   Algoritmos   |
 |   -----------   |   -----------   |
 |   RapidMiner  |   Logistic regression, Neural Network, Naive Bayes, Decision tree, Random Forest, Gradient boosting tree, DBSCAN, K-means, K-models, Hierarchical, Principal component analysis, Singular value decomposition  |
 |   scikit-learn  |   Logistic regression, Neural network, Naive Bayes, Decision tree, Random forest, Gradient Boosting Tree, k-modes   |
 
 
-# Ejercicio 5
+# Un caso de estudio
 
-Selecciona un dataset interesante, complejo, y que preferentemente haya sido objeto de muchas investigaciones 
+Indaguemos ahora sobre un caso de estudio para poder trabajar aplicando machine learning, investiguemos de que trata y qué acercamientos podríamos usar.
 
 ## Census Income Data Set
 
@@ -182,7 +186,7 @@ El problema que aborda es intentar predecir si la fuente de ingresos supera los 
     - Tipo de dato: texto
     - Rango: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
-### ¿Qué tipos de algoritmos de Machine Learning pueden aplicarse para resolverlo? (revisa rápidamente algunas publicaciones referenciadas)
+### ¿Qué tipos de algoritmos de Machine Learning pueden aplicarse para resolverlo?
 
 Algunos mencionados son:
 - Bayes
