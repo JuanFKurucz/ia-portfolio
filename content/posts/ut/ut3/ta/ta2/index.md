@@ -5,7 +5,7 @@ cover: "./residuals.png"
 date: "2021-09-03"
 title: "UT3TA2 - Trabajo de Aplicación 2"
 published: true
-tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Regresion lineal','RapidMiner']
+tags: ['Trabajo de aplicacion','UT3','Algoritmos lineales','Regresion lineal','RapidMiner']
 ---
 
 En este trabajo de aplicación se busca utilizar regresión lineal en RapidMiner para atacar la problemática de deducir el precio de casas.

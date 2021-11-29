@@ -5,7 +5,7 @@ cover: "./grafica.png"
 date: "2021-09-28"
 title: "UT4TA7 - Trabajo de Aplicación 7"
 published: true
-tags: ['Trabajo de Aplicacion','UT4','Algoritmos no lineales','SVM','RapidMiner']
+tags: ['Trabajo de aplicacion','UT4','Algoritmos no lineales','SVM','RapidMiner']
 ---
 
 En este trabajo de aplicación se busca utilizar el algoritmo SVM y ver su funcionamiento.

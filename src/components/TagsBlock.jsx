@@ -34,6 +34,10 @@ const TagsBlock = ({ list }) => (
           </Link>
         );
       })}
+
+    <Link key={"other"} to={`/tags`}>
+      <span>Otras etiquetas</span>
+    </Link>
   </TagsContainer>
 );
 

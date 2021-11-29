@@ -5,7 +5,7 @@ cover: "./grafica1.png"
 date: "2021-08-31"
 title: "UT3TA1 - Trabajo de Aplicación 1"
 published: true
-tags: ['Trabajo de Aplicacion','UT3','Algoritmos lineales','Regresion lineal']
+tags: ['Trabajo de aplicacion','UT3','Algoritmos lineales','Regresion lineal']
 ---
 
 En este trabajo de aplicación se busca utilizar regresión lineal en hojas de calculo para entender como se construye este algoritmo.

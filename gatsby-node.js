@@ -5,6 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve('src/templates/post.jsx');
+    const tagPage = path.resolve('src/pages/tags.jsx');
     const tagPosts = path.resolve('src/templates/tag.jsx');
 
     resolve(
@@ -49,6 +50,14 @@ exports.createPages = ({ graphql, actions }) => {
 
         const tags = Object.keys(postsByTag);
 
+        createPage({
+          path: '/tags',
+          component: tagPage,
+          context: {
+            tags: tags.sort(),
+          },
+        });
+        
         //create tags
         tags.forEach(tagName => {
           const posts = postsByTag[tagName];

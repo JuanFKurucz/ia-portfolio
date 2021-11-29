@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
@@ -22,7 +22,7 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
-  const tags = ["Caso de estudio","Trabajo de Aplicacion","Practica domiciliaria"];
+  const tags = ["Caso de estudio","Trabajo de aplicacion","Practica domiciliaria"];
 
   return (
     <Layout>
