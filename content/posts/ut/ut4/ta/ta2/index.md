@@ -1,18 +1,18 @@
 ---
 pathPrefix: '/'
-path: "/pd/ut4/ta2"
+path: "/ut/ut4/ta2"
 cover: "./rapidminer.png"
 date: "2021-09-21"
-title: "UT4TA2 - Trabajo de Aplicación 2"
+title: "Utilización de Árboles de decisión en RapidMiner"
 published: true
-tags: ['Trabajo de aplicacion','UT4','Algoritmos no lineales','Arbol de decision','RapidMiner']
+tags: ['Algoritmos no lineales','Arbol de decision','RapidMiner']
 ---
 
-En este trabajo de aplicación se busca utilizar árboles de decisiones en RapidMiner para atacar la problemática de una compañía de venta de dispositivos electrónicos en línea.
+En este artículo utilizaremos árboles de decisiones en RapidMiner para atacar la problemática de una compañía de venta de dispositivos electrónicos en línea.
 
 # Entendimiento del problema
 
-El escenario consiste en una empresa lanzando un nuevo producto al mercado, y se quiere analizar que es lo que hace que algunas personas tomen la decisión de comprar un nuevo producto al momento de lanzamiento mientras que otras no lo hacen tan tempranamente. Se cuenta con datos de clientes que ya han comprado productos de esta forma y datos de clientes que no lo han hecho.
+El escenario consiste en una empresa lanzando un nuevo producto al mercado, y se quiere analizar qué es lo que hace que algunas personas tomen la decisión de comprar un nuevo producto al momento de lanzamiento mientras que otras no lo hacen tan tempranamente. Se cuenta con datos de clientes que ya han comprado productos de esta forma y datos de clientes que no lo han hecho.
 
 # Comprensión de los datos
 
@@ -37,7 +37,7 @@ compañía en el último año y medio (SI / NO). Este atributo NO incluye libros
 de compra para el nuevo eReader, y por ello se lo ha separado de los demás atributos que refieren a compras.
 En este caso se indica si el cliente alguna vez compró libros digitales, no se restringe sólo al último año.
 - **MetodoPago**: la forma más frecuente en que el cliente ha efectuado sus pagos:
-    - ransferencia bancaria
+    - transferencia bancaria
     - CuentaWebsite – el cliente ha dispuesto una tarjeta de crédito o cuenta bancaria para débito
 automático en el sitio
     - TarjetaCredito – el cliente ingresa los datos de la tarjeta y autorización en cada compra
@@ -48,7 +48,7 @@ que han comprado eReaders de generaciones anteriores. Los que compraron dentro d
 lanzamiento son registrados como “Innovadores”. Los que compraron entre una y tres semanas luego del
 lanzamiento, se registran como “AdoptanteTemprano”. Luego de tres semanas, pero dentro de los primeros
 2 meses, se consideran “MayoriaTemprana” y los demás, “MayoríaTardía”. Este atributo servirá como
-etiqueta al aplicar el modelo al datset de evaluación. 
+etiqueta al aplicar el modelo al dataset de evaluación. 
 
 Las descripciones de los atributos parecen ser suficientes como para indagar en profundidad, podemos ver que la mayoría son atributos polinomiales o binomiales, y en este caso tenemos solamente un valor continuo para la edad.
 
@@ -94,8 +94,6 @@ El proceso completo en RapidMiner se puede ver a continuación:
 
 # Deployment
 
-Este modelo puede ser usado en producción como software que ayude a identificar posibles clientes a un equipo de ventas para ver como indagar y acercarse a los mismos. 
-
+Este modelo puede ser usado en producción como software que ayude a identificar posibles clientes a un equipo de ventas para ver cómo indagar y acercarse a los mismos. 
 
 [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta2.rmp)
-
