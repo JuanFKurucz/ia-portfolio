@@ -26,11 +26,13 @@ Se tomarán en cuenta 2 pipelines, uno con los datos raw (es decir como vienen p
 ## Pipeline pre procesado
 ![pipeline2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta2/pipeline2.png?raw=true)
 
-Con estas probabilidades calculadas ahora podemos inferir sobre nuevos datos de entrada.
-
 # Resultados
 
+En los siguientes puntos veremos resultados de los diferentes clusters
+
 ## Pipeline raw
+
+Comencemos por los clusters armados sin datos pre procesados
 
 ### Agglomerative
 
@@ -46,6 +48,8 @@ Con estas probabilidades calculadas ahora podemos inferir sobre nuevos datos de 
 
 
 ## Pipeline pre procesado
+
+Continuemos por los clusters armados con los datos pre procesados
 
 ### Agglomerative
 
