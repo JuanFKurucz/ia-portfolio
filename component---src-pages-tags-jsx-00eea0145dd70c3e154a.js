@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{PcuZ:function(t,e,a){"use strict";a.r(e);a("q1tI");var i=a("TJpk"),n=a.n(i),u=a("TiLl"),c=a("tCqT"),l=a("qKvR");e.default=function(t){var e=t.pageContext.tags;return Object(l.d)(c.d,null,Object(l.d)(n.a,{title:"Etiquetas"}),Object(l.d)(u.b,{title:"Etiquetas"},"Etiquetas del portafolio"),Object(l.d)(c.a,null,Object(l.d)(u.e,{list:e})))}}}]);
+//# sourceMappingURL=component---src-pages-tags-jsx-00eea0145dd70c3e154a.js.map
