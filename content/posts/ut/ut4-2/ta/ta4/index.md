@@ -32,6 +32,6 @@ Con estas probabilidades calculadas ahora podemos inferir sobre nuevos datos de 
 
 # Archivos
 
-[Archivo de Excel](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta4/EjemploPlayTennis.rmp?raw=true)
+[Archivo de Excel](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta4/EjemploPlayTennis.xlsx?raw=true)
 
 
