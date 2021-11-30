@@ -21,7 +21,6 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Clustering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Colinear features</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Cross Validation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Cross validation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/DBScan</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Data mining</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Ensambles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -77,8 +76,7 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Top Down</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Tratamiento previo de los datos y fundamentos de los algoritmos de ML</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UCI</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Validacion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Validation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Validación</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Vote</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Weka</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Wine dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -108,10 +106,10 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta10</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4-2/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta10</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
