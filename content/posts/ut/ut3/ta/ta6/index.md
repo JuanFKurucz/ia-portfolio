@@ -3,12 +3,12 @@ pathPrefix: '/'
 path: "/ut/ut3/ta6"
 cover: "./cover.png"
 date: "2021-09-10"
-title: "Utilización de Linear Discriminant Analysis (LDA) en RapidMiner"
+title: "Utilización de Análisis Discriminante Lineal en RapidMiner"
 published: true
-tags: ['Algoritmos lineales','Linear Discriminant Analysis','RapidMiner','Sports Dataset','Outliers','Normalizacion','Filtrado']
+tags: ['Algoritmos lineales','Análisis Discriminante Lineal','RapidMiner','Sports Dataset','Outliers','Normalizacion','Filtrado']
 ---
 
-En este artículo se busca utilizar Linear Discriminant Analysis (LDA) en RapidMiner para atacar la problemática de ayudar a jóvenes atletas a decidirse por un deporte en el cual tendrán una mejor performance.
+En este artículo se busca utilizar Análisis Discriminante Lineal en RapidMiner para atacar la problemática de ayudar a jóvenes atletas a decidirse por un deporte en el cual tendrán una mejor performance.
 
 # Entendimiento del problema
 
