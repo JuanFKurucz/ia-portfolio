@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/ut/ut5/ta3"
 cover: "./pipeline.png"
-date: "2021-10-29"
+date: "2021-11-05"
 title: "Evaluando PCA clustering en RapidMiner"
 published: true
 tags: ['Aprendizaje no supervisado y Métodos de clustering','PCA','RapidMiner','K-means','Selección de Atributos']
