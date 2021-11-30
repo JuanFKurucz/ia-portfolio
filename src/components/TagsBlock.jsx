@@ -23,7 +23,7 @@ const TagsContainer = styled.div`
   }
 `;
 
-const TagsBlock = ({ list, fontSize }) => (
+const TagsBlock = ({ list, fontSize, children }) => (
   <TagsContainer>
     {list &&
       list.map(tag => {
@@ -34,10 +34,7 @@ const TagsBlock = ({ list, fontSize }) => (
           </Link>
         );
       })}
-
-    <Link key={"other"} to={`/tags`} style={{fontSize:fontSize}}>
-      <span>Otras etiquetas</span>
-    </Link>
+      {children}
   </TagsContainer>
 );
 

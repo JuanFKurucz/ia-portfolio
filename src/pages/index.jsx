@@ -37,7 +37,11 @@ const Index = ({ data }) => {
     <Layout>
       <Helmet title={'Inteligencia Artificial Portafolio'} />
       <Header title="Juan Francisco Kurucz - Portafolio">Portafolio de inteligencia artificial
-      <TagsBlock list={tags || []} fontSize={"12px"}/>
+      <TagsBlock list={tags || []} fontSize={"12px"}>
+        <Link key={"other"} to={`/tags`} style={{fontSize:"12px"}}>
+          <span>Otras etiquetas</span>
+        </Link>
+      </TagsBlock>
       </Header>
       <PostWrapper>
         {edges.map(({ node }) => {

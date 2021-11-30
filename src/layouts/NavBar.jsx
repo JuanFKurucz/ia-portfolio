@@ -33,9 +33,9 @@ const NavBar = () => (
       <img src={logo} alt="JuanFKurucz Logo" style={{width:"100px","borderRadius":"50%"}} />
     </StyledLink>
     <Nav>
-      <Link to="/">Home</Link>
+      <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
+      <Link to="/tags">Etiquetas</Link>
     </Nav>
   </Headroom>
 );
