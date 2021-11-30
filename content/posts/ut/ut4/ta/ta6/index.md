@@ -1,6 +1,6 @@
 ---
 pathPrefix: '/'
-path: "/pd/ut4/ta6"
+path: "/ut/ut4/ta6"
 cover: "./grafica.jpeg"
 date: "2021-09-28"
 title: "Utilización de Supported Vector Machines en RapidMiner"
@@ -24,7 +24,7 @@ Graficamos los datos empleados en `TA6-EJ2.csv`, partiendo del ejemplo que grafi
 
 Tenemos que utilizando RapidMiner podemos realizar graficas de este tipo, el resultado que nos dio al cargar el conjunto y realizar el mismo grafico fue:
 
-![grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta6/grafica.png?raw=true)
+![grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta6/grafica.jpeg?raw=true)
 
 A su vez se nos pide entrenar un SVM con los datos de `TA6-EJ2.csv` y evaluar la prediccion de los datos de `TA6-EJ2-TEST.csv`.
 
