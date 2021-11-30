@@ -5,7 +5,7 @@ cover: "./rapidminer.png"
 date: "2021-09-21"
 title: "Utilización de Árboles de decisión en RapidMiner"
 published: true
-tags: ['Algoritmos no lineales','Arbol de decision','RapidMiner']
+tags: ['Algoritmos no lineales','Arbol de decision','RapidMiner','Performance','Accuracy','Gain ratio','Gini index','Information gain','eReader Dataset','Outliers','Target encoding','Normalizacion']
 ---
 
 En este artículo utilizaremos árboles de decisiones en RapidMiner para atacar la problemática de una compañía de venta de dispositivos electrónicos en línea.
@@ -97,3 +97,37 @@ El proceso completo en RapidMiner se puede ver a continuación:
 Este modelo puede ser usado en producción como software que ayude a identificar posibles clientes a un equipo de ventas para ver cómo indagar y acercarse a los mismos. 
 
 [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta2.rmp)
+
+
+# Otras pruebas realizadas
+
+En base a un arbol de decision armado en RapidMiner se probara utilizando los siguientes parametros
+- Criterio: ganancia de información
+- No preprunning
+- No prunning
+- Profundidad : -1 (todo lo que el algoritmo arme).
+
+A continuacion se muestran los resultados de diferentes pruebas
+
+![Calculos](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.png?raw=true)
+
+Una mejor forma de visualizar estas comparaciones es graficamente:
+
+![Grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/grafica.png?raw=true)
+
+En el eje X tenemos las IDS y en el eje Y tenemos el valor de accuracy para trian y val respecto con sus colores. Como se puede ver los mejores modelos estarian entre el 3, 4 y el 10.
+
+El que obtuvo mejor valor de accuracy en validation es efecitvametne el modelo 10 que fue entrenado con los siguientes parametros:
+- Se aplico preprunning
+- No se aplico prunning
+- Se marco una profundiad de 7
+- Una ganacia minima de 0,01
+- Un tamaño minimo de hoja de 1
+- Un tamaño minimo de particion de 10
+- 2 alternativas de preprunning
+
+
+# Archivos
+
+- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta3.rmp)
+- [Hoja de calculos de evaluaciones](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.xlsx)
