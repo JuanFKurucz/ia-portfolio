@@ -3,17 +3,17 @@ pathPrefix: '/'
 path: "/pd/ut3/pd5"
 cover: "./blocks.jpg"
 date: "2021-09-13"
-title: "UT3PD5 - Análisis Discriminante Lineal utilizando Python y scikit-learn"
+title: "Análisis Discriminante Lineal utilizando Python y scikit-learn"
 published: true
 tags: ['Practica domiciliaria','UT3','Algoritmos lineales','Python']
 ---
 
-En este ejercicio se nos pide hacer un proceso similar a lo que venimos haciendo en RapidMiner pero esta vez en Python.
+En este articulo haremos proceso similar a lo que venimos haciendo en RapidMiner pero esta vez en Python.
 
 El paso a paso del ejercicio está realizado en el notebook siguiente:
 
-- [UT03_PD5.ipynb](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/UT03_PD5.ipynb)
-- También está disponible el ejercicio similar realizado en RapidMiner [ut03ta6.rmp](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/ut03ta6.rmp)
+- [notebook.ipynb](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/notebook.ipynb)
+- También está disponible el articulo similar realizado en RapidMiner [Utilización de Análisis Discriminante Lineal en RapidMiner](/ut/ut3/ta6)
 
 Se puede remitir a los archivos de datos como de salida en los siguientes enlaces:
 

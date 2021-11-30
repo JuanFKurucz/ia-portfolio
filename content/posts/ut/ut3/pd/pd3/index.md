@@ -1,7 +1,7 @@
 ---
 pathPrefix: '/'
 path: "/pd/ut3/pd3"
-cover: "./grafica.jpg"
+cover: "./grafica.png"
 date: "2021-09-19"
 title: "Simulando el algoritmo de Análisis Discriminante Lineal en Excel"
 published: true
