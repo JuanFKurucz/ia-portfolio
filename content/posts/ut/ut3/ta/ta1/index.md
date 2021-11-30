@@ -18,6 +18,8 @@ Utilizaremos el siguiente conjunto de datos de prueba
 
 # Resolucion
 
+A continuacion veremos la resolución del problema
+
 ## Visualización de los datos
 Primero para analizar este conjunto de datos mostraremos una gráfica de los mismos:
 ![grafico](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/grafica1.png?raw=true)
@@ -66,6 +68,6 @@ También se pueden ver los errores obtenidos a lo largo de estos ciclos:
 
 Todos estos valores y cálculos pueden ser vistos en el siguiente archivo:
 
-- [excel_2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/pd1_excel_2.xlsx)
+- [excel_2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_2.xlsx)
 
 

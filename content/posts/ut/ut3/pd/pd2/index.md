@@ -3,42 +3,50 @@ pathPrefix: '/'
 path: "/pd/ut3/pd2"
 cover: "./grafica.png"
 date: "2021-09-13"
-title: "UT3PD2 - Trabajos Domiciliario 2"
+title: "Simulando el algoritmo de Regresión Logística en Excel"
 published: true
-tags: ['Practica domiciliaria','UT3','Algoritmos lineales','Regresion logistica']
+tags: ['Algoritmos lineales','Regresión Logística', 'Excel']
 ---
 
-En este ejercicio se nos pide hacer el calculo manual del algoritmo Regresion logistica
+En este artículo haremos el calculo manual del algoritmo Regresión logística en Excel
 
 # Datos
 
-Se nos otorgan los siguientes conjuntos de datos:
+Usaremos los siguientes conjuntos de datos:
 
 - [RegresionLogistica-ds1.csv](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/RegresionLogistica-ds1.csv)
 - [RegresionLogistica-ds2.csv](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/RegresionLogistica-ds2.csv)
 
-Primero se nos pide graficar los datos:
+# Cálculo manual de Regresión logística
+
+El cálculo es muy similar al proceso que hemos hecho con la regresión lineal, en este caso la ecuación es
+
+y = BO + B1 * X1 + B2 * X2
+
+Tendremos tantas Xn como nuestras entradas.
+
+# Visualización de datos
 
 ![grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/grafica.png?raw=true)
 
-A continuacion podemos ver estos datos:
+A continuación podemos ver estos datos:
 ![data](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/data.png?raw=true)
 
-Y a continuacion podemos ver ciclos de entrenamiento del modelo:
-![iteration](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/iteartion.png?raw=true)
+Y a continuación podemos ver ciclos de entrenamiento del modelo:
+![iteration](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/iteration.png?raw=true)
 
-Podemos ver las estadisticas de los epochs:
+Podemos ver las estadísticas de los epochs:
 ![errores](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/epochs.png?raw=true)
 
 
 La grafica de RMSE:
 ![rmse](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/rmse.png?raw=true)
 
-Y la grafica de exactitud:
+Y la gráfica de exactitud:
 ![exactitud](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/exactitud.png?raw=true)
 
 
-
-Todos estos valores y calculos pueden ser vistos en el siguiente archivo:
+Todos estos valores y cálculos pueden ser vistos en el siguiente archivo:
 
 - [ut3pd2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/ut3pd2.xlsx)
+
