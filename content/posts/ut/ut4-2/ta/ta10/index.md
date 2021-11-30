@@ -49,8 +49,10 @@ La performance obtuvo los siguientes resultados:
 
 Tomando en cuenta los atributos: 1, 46, 11, 12, 15, 16, 17, 21, 24, 26, 27, 30, 31, 33, 34, 36, 38, 39, 40, 42, 43, 45, 48, 49, 54, 55, 57
 
+# Conclusiones
+
+Como se puede ver, utilizar selección de atributos con cross validation nos puede dar una mejora en los resultados obtenidos.
+
 # Archivos
 
 [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta10/ut4-ta10.rmp?raw=true)
-
-
