@@ -5,7 +5,7 @@ cover: "./blocks.jpg"
 date: "2021-09-13"
 title: "Análisis Discriminante Lineal utilizando Python y scikit-learn"
 published: true
-tags: ['Practica domiciliaria','UT3','Algoritmos lineales','Python']
+tags: ['Algoritmos lineales','Python']
 ---
 
 En este articulo haremos proceso similar a lo que venimos haciendo en RapidMiner pero esta vez en Python.

@@ -22,13 +22,22 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
-  const tags = ["Caso de estudio","Trabajo de aplicacion","Practica domiciliaria"];
+  const tags = [
+    "Introducción al Aprendizaje Automático",
+    "Tratamiento previo de los datos y fundamentos de los algoritmos de ML",
+    "Algoritmos lineales",
+    "Algoritmos no lineales",
+    "Aprendizaje no supervisado y métodos de clustering",
+    "Ensambles",
+    "Ajuste, evaluación y sintonia de modelos",
+    "Caso de estudio",
+  ];
 
   return (
     <Layout>
       <Helmet title={'Inteligencia Artificial Portafolio'} />
       <Header title="Juan Francisco Kurucz - Portafolio">Portafolio de inteligencia artificial
-      <TagsBlock list={tags || []} />
+      <TagsBlock list={tags || []} fontSize={"12px"}/>
       </Header>
       <PostWrapper>
         {edges.map(({ node }) => {

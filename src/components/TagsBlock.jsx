@@ -10,7 +10,7 @@ const TagsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   a {
-    margin: 0 1rem 1rem 0;
+    margin: 0 0.2rem 0.2rem 0;
     color: ${props => props.theme.colors.black.blue};
     padding: 0.3rem 0.6rem;
     background: ${props => props.theme.colors.white.grey};
@@ -23,19 +23,19 @@ const TagsContainer = styled.div`
   }
 `;
 
-const TagsBlock = ({ list }) => (
+const TagsBlock = ({ list, fontSize }) => (
   <TagsContainer>
     {list &&
       list.map(tag => {
         const upperTag = tag.charAt(0).toUpperCase() + tag.slice(1);
         return (
-          <Link key={tag} to={`/tags/${tag}`}>
+          <Link key={tag} to={`/tags/${tag}`} style={{fontSize:fontSize}}>
             <span>{upperTag}</span>
           </Link>
         );
       })}
 
-    <Link key={"other"} to={`/tags`}>
+    <Link key={"other"} to={`/tags`} style={{fontSize:fontSize}}>
       <span>Otras etiquetas</span>
     </Link>
   </TagsContainer>
