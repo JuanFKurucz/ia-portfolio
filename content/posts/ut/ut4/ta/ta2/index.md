@@ -101,29 +101,29 @@ Este modelo puede ser usado en producción como software que ayude a identificar
 
 # Otras pruebas realizadas
 
-En base a un arbol de decision armado en RapidMiner se probara utilizando los siguientes parametros
+En base a un árbol de decisión armado en RapidMiner se probará utilizando los siguientes parámetros
 - Criterio: ganancia de información
 - No preprunning
-- No prunning
+- No pruning
 - Profundidad : -1 (todo lo que el algoritmo arme).
 
-A continuacion se muestran los resultados de diferentes pruebas
+A continuación se muestran los resultados de diferentes pruebas
 
 ![Calculos](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.png?raw=true)
 
-Una mejor forma de visualizar estas comparaciones es graficamente:
+Una mejor forma de visualizar estas comparaciones es gráficamente:
 
 ![Grafica](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/grafica.png?raw=true)
 
-En el eje X tenemos las IDS y en el eje Y tenemos el valor de accuracy para trian y val respecto con sus colores. Como se puede ver los mejores modelos estarian entre el 3, 4 y el 10.
+En el eje X tenemos las IDS y en el eje Y tenemos el valor de accuracy para trian y val respecto con sus colores. Como se puede ver los mejores modelos estarían entre el 3, 4 y el 10.
 
-El que obtuvo mejor valor de accuracy en validation es efecitvametne el modelo 10 que fue entrenado con los siguientes parametros:
-- Se aplico preprunning
-- No se aplico prunning
-- Se marco una profundiad de 7
-- Una ganacia minima de 0,01
-- Un tamaño minimo de hoja de 1
-- Un tamaño minimo de particion de 10
+El que obtuvo mejor valor de accuracy en validation es efectivamente el modelo 10 que fue entrenado con los siguientes parámetros:
+- Se aplica preprunning
+- No se aplicó pruning
+- Se marcó una profundidad de 7
+- Una ganancia mínima de 0,01
+- Un tamaño mínimo de hoja de 1
+- Un tamaño mínimo de partición de 10
 - 2 alternativas de preprunning
 
 
@@ -131,3 +131,6 @@ El que obtuvo mejor valor de accuracy en validation es efecitvametne el modelo 1
 
 - [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta3.rmp)
 - [Hoja de calculos de evaluaciones](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.xlsx)
+
+
+
