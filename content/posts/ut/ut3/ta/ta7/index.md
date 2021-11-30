@@ -5,7 +5,7 @@ cover: "./blocks.jpg"
 date: "2021-09-14"
 title: "Utilización de Análisis Discriminante Lineal, Regresion Logistica en Python"
 published: true
-tags: ['Algoritmos lineales','Python','Análisis Discriminante Lineal', 'Regresion Logistica','Matplotlib','Pandas','Scikit-learn']
+tags: ['Algoritmos lineales','Python','Análisis Discriminante Lineal', 'Regresión Logística','Matplotlib','Pandas','Scikit-learn']
 ---
 
 En este artículo se busca realizar el mismo proceso hecho en [Utilización de Análisis Discriminante Lineal en RapidMiner](/ut/ut3/ta6) pero esta vez en Python.

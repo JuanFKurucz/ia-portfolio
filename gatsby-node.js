@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         const tags = Object.keys(postsByTag);
-
+        console.log(tags);
         createPage({
           path: '/tags',
           component: tagPage,

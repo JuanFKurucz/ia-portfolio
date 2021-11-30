@@ -5,7 +5,7 @@ cover: "./rapidminer.png"
 date: "2021-09-21"
 title: "Utilización de Árboles de decisión en RapidMiner"
 published: true
-tags: ['Algoritmos no lineales','Arbol de decision','RapidMiner','Performance','Accuracy','Gain ratio','Gini index','Information gain','eReader Dataset','Outliers','Target encoding','Normalizacion']
+tags: ['Algoritmos no lineales','Árbol de decisión','RapidMiner','Performance','Accuracy','Gain ratio','Gini index','Information gain','eReader Dataset','Outlier','Target encoding','Normalización']
 ---
 
 En este artículo utilizaremos árboles de decisiones en RapidMiner para atacar la problemática de una compañía de venta de dispositivos electrónicos en línea.

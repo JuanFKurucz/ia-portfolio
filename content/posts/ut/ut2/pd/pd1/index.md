@@ -5,7 +5,7 @@ cover: "./rapidminer.png"
 date: "2021-08-13"
 title: "Procesamiento previo de datos de UCI - Wine Data Set en RapidMiner"
 published: true
-tags: ['Tratamiento previo de los datos y fundamentos de los algoritmos de ML', 'RapidMiner', 'Wine dataset', 'UCI', 'Missing values', 'Outlier detection', 'Naive bayes', 'Split data', 'Performance']
+tags: ['Tratamiento previo de los datos y fundamentos de los algoritmos de ML', 'RapidMiner', 'Wine dataset', 'UCI', 'Missing values', 'Outlier', 'Naive bayes', 'Split data', 'Performance']
 ---
 
 En este artículo pondremos en práctica el tratamiento previo de datos utilizando RapidMiner, para esto utilizaremos el dataset [UCI - Wine Data Set](https://archive.ics.uci.edu/ml/datasets/wine) a modo de prueba y la herramienta de RapidMiner. Seguiremos los tutoriales de RapidMiner para poner en práctica los diferentes flujos de tratamientos de datos que este provee.

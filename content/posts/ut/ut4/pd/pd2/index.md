@@ -5,7 +5,7 @@ cover: "./plot.png"
 date: "2021-09-27"
 title: "Utilizando KNIME para árboles de decisión"
 published: true
-tags: ['Algoritmos no lineales','Arbol de decision','KNIME']
+tags: ['Algoritmos no lineales','Árbol de decisión','KNIME']
 ---
 
 En este articulo se estudiara el pipeline creado en KNIME el cual puede ser consultado [How to Use the Simple Regression Tree](https://hub.knime.com/knime/spaces/Examples/latest/04_Analytics/05_Regressions/01_Learning_a_Simple_Regression_Tree~Ko5y95_spbdxsW5i)

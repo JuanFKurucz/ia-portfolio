@@ -5,7 +5,7 @@ cover: "./header.png"
 date: "2021-11-28"
 title: "Caso de estudio: Ames Housing"
 published: true
-tags: ['Caso de estudio','Random Forest','Boosting','PCA','Outliers']
+tags: ['Caso de estudio','Random Forest','Boosting','PCA','Outlier']
 ---
 
 En este caso de estudio se analizará el conjunto de datos Ames, Iowa, el cual se presenta como alternativa al conjunto de datos de Boston Housing Data. En este conjunto de datos vamos a poder obtener información sobre ventas de propiedades residenciales.
