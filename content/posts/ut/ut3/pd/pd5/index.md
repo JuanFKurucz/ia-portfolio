@@ -19,35 +19,35 @@ En este artículo haremos proceso similar a lo que venimos haciendo en RapidMine
 
 ## Parte 1: carga de datos y preparación
 
-![1.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/1.1.png?raw=true)
-![1.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/1.2.png?raw=true)
-![1.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/1.3.png?raw=true)
-![1.4](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/1.4.png?raw=true)
+![1.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/1.1.png?raw=true)
+![1.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/1.2.png?raw=true)
+![1.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/1.3.png?raw=true)
+![1.4](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/1.4.png?raw=true)
 
 ## Parte 2: entrenamiento y testing
 
-![2.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/2.1.png?raw=true)
-![2.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/2.2.png?raw=true)
+![2.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/2.1.png?raw=true)
+![2.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/2.2.png?raw=true)
 
 ## Parte 3: evaluación
 
-![3.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/3.1.png?raw=true)
-![3.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/3.2.png?raw=true)
-![3.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/3.3.png?raw=true)
+![3.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/3.1.png?raw=true)
+![3.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/3.2.png?raw=true)
+![3.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/3.3.png?raw=true)
 
 ## Parte 4: Regresión Logística
 
-![4.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/4.1.png?raw=true)
-![4.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/4.2.png?raw=true)
+![4.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/4.1.png?raw=true)
+![4.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/4.2.png?raw=true)
 
 ## Usando sport dataset
 
 Esto mismo puede ser usado para el conjunto de datos de sport
 
-![5.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/5.1.png?raw=true)
-![5.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/5.2.png?raw=true)
-![5.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/5.3.png?raw=true)
-![5.4](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/pd5/5.4.png?raw=true)
+![5.1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/5.1.png?raw=true)
+![5.2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/5.2.png?raw=true)
+![5.3](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/5.3.png?raw=true)
+![5.4](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd5/5.4.png?raw=true)
 
 # Conclusión
 
