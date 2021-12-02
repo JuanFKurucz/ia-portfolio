@@ -37,6 +37,7 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Gain ratio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Gini index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Golf Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Gradient Boosting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Housing Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Information gain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Introducción al Aprendizaje Automático</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,6 +46,7 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/KDD</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/KNIME</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/KNN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Kaggle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Keras</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Lift Chart</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Machine Learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -71,8 +73,10 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Regresión Logística</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Regresión lineal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Residuo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Ruido</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/SEMMA</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Scikit-learn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Seaborn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Selección de Atributos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Sensitivity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Sonar Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -100,16 +104,16 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/other</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Árbol de decisión</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut2/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut1/pd2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut1/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut2/pd1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ta/ut2/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut3/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut3/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut3/ta4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut3/ta6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut3/ta7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut3/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -119,11 +123,11 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/pd5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/pd/ut4-2/pd3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta10</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut4-2/ta5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
