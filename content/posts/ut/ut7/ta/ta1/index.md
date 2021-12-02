@@ -31,6 +31,16 @@ Tomaremos el atributo label como nuestra variable objetivo del problema, la cual
 
 Se usará el siguiente pipeline en RapidMiner:
 ![pipeline](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/pipeline.png?raw=true)
+![validation](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/validation.png?raw=true)
+
+Como se puede ver en la imagen, este pipeline consiste de:
+- Obtener los datos
+- Transformar la variable objetivo a binominal
+- Separar los datos en entrenamiento y test (se realizó una separación de 80% vs 20%)
+- Separar el conjunto de entrenamiento en entrenamiento y validación (se realizó una separación de 70% vs 30%)
+    - Dentro de la validación tenemos el entrenamiento de un modelo de Naive Bayes, y su evaluación de performance sobre el conjunto de validación
+- Una vez entrenado el modelo se aplica la evaluación sobre el conjunto de testing y se crean lift charts sobre este resultado.
+
 
 # Analisis
 
@@ -100,6 +110,7 @@ En la imagen de arriba podemos ver la gráfica llamada Lift Chart, la cual nos m
 # Archivos
 
 - [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut7/ta/ta1/ut7ta1.rmp?raw=true)
+
 
 
 
