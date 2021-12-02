@@ -74,7 +74,7 @@ Cabe aclarar que esta es una lista acotada y día a día se lanzan nuevas herram
 
 Busca información detallada del proceso CRISP-DM y realiza un breve resumen.
 
-![CRISP-DM](https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png)
+![CRISP-DM](https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png?raw=true)
 “The CRoss Industry Standard Process for Data Mining (CRISP-DM) is a process model with six phases that naturally describes the data science life cycle. It’s like a set of guardrails to help you plan, organize, and implement your data science (or machine learning) project.” - [CRISP-DM. (2021, 5 agosto). Data Science Process Alliance. https://www.datascience-pm.com/crisp-dm-2/](https://www.datascience-pm.com/crisp-dm-2/)
 
 CRISP-DM es un proceso de trabajo, parecido a la realidad de los procesos de proyectos de ingeniería de software, pero en este caso aplicado para proyectos de data science, donde se tiene que validar diferentes aspectos del mismo comenzando por el entendimiento del negocio y el ambiente de la problemática, seguido por el entendimiento de que datos se tiene y cómo impactan estos, después preparar estos datos, crear modelos, evaluarlos y subir a producción los resultados.
@@ -84,7 +84,7 @@ Otros procesos de ciclo de vida de data science son:
 
 ### TDSP Life Cycle (Team Data Science Process)
 
-![TDSP](https://www.datascience-pm.com/wp-content/uploads/2021/02/TDSP.png)
+![TDSP](https://www.datascience-pm.com/wp-content/uploads/2021/02/TDSP.png?raw=true)
 [Team Data Science Process (TDSP). (2021, 31 julio). Data Science Process Alliance. https://www.datascience-pm.com/tdsp/](https://www.datascience-pm.com/tdsp/)
 
 Pasos: 

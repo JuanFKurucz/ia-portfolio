@@ -57,5 +57,5 @@ Los resultados del ensamble de Bagging fueron:
 
 # Archivos
 
-- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta1/ut6ta1.rmp?raw=true)
+- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta1/ut6ta1.rmp)
 

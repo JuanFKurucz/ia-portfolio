@@ -44,4 +44,4 @@ En este cluster se tomaron todos los atributos del conjunto de datos
 
 # Archivos
 
-- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta3/ta3.rmp?raw=true)
+- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta3/ta3.rmp)

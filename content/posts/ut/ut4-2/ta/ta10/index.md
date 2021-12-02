@@ -55,4 +55,4 @@ Como se puede ver, utilizar selección de atributos con cross validation nos pue
 
 # Archivos
 
-[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta10/ut4-ta10.rmp?raw=true)
+[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta10/ut4-ta10.rmp)

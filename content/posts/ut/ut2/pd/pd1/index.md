@@ -55,15 +55,15 @@ Aplicando un algoritmo para detectar outliers por distancia sin editar los datos
 
 Se crearon dos flujos de datos como se muestra en la siguiente imagen:
 
-![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/pipeline.png)
+![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/pipeline.png?raw=true)
 
 Los resultados de performance fueron los siguientes;
 
 Para los datos no arreglados:
-![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/untouched.png)
+![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/untouched.png?raw=true)
 
 Para los datos que se hicieron arreglos:
-![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/fixed.png)
+![Pipeline](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut2/pd/pd1/fixed.png?raw=true)
 
 Se puede ver que para este caso los datos no tocados dieron mejores, pero esto puede ser por el split actual de datos o porque el modelo generado en el segundo caso es actualmente más genérico (generaliza más) que el primero provisto.
 

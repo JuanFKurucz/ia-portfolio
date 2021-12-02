@@ -109,7 +109,7 @@ En la imagen de arriba podemos ver la gráfica llamada Lift Chart, la cual nos m
 
 # Archivos
 
-- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut7/ta/ta1/ut7ta1.rmp?raw=true)
+- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut7/ta/ta1/ut7ta1.rmp)
 
 
 

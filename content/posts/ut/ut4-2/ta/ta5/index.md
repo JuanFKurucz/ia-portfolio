@@ -38,5 +38,5 @@ Como se puede ver, funciona mejor con atributos polinomiales
 
 # Archivos
 
-[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta5/ta4parte2.rmp?raw=true)
+[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta5/ta4parte2.rmp)
 

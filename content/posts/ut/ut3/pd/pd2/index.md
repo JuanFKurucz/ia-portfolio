@@ -48,5 +48,5 @@ Y la gráfica de exactitud:
 
 Todos estos valores y cálculos pueden ser vistos en el siguiente archivo:
 
-- [ut3pd2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/ut3pd2.xlsx)
+- [ut3pd2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd2/ut3pd2.xlsx?raw=true)
 

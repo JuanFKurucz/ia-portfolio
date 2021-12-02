@@ -125,7 +125,7 @@ Como podemos ver esto genera una gráfica que se inclina hacia la derecha, esta 
 # Archivos:
 
 - [ut3ta2.rmp](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta2/ut3ta2.rmp)
-- [UT3TA2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta2/UT3TA2.xlsx)
+- [UT3TA2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta2/UT3TA2.xlsx?raw=true)
 
 
 

@@ -130,7 +130,7 @@ El que obtuvo mejor valor de accuracy en validation es efectivamente el modelo 1
 # Archivos
 
 - [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/ta3.rmp)
-- [Hoja de calculos de evaluaciones](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.xlsx)
+- [Hoja de calculos de evaluaciones](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/ta/ta2/calculos.xlsx?raw=true)
 
 
 

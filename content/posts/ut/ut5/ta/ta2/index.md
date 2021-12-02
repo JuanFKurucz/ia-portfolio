@@ -69,8 +69,8 @@ Continuemos por los clusters armados con los datos pre procesados
 
 # Archivos
 
-- [Archivo de RapidMiner Pipeline1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta2/ut5ta2ej1.rmp?raw=true)
-- [Archivo de RapidMiner Pipeline2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta2/ut5ta2ej2.rmp?raw=true)
+- [Archivo de RapidMiner Pipeline1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta2/ut5ta2ej1.rmp)
+- [Archivo de RapidMiner Pipeline2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut5/ta/ta2/ut5ta2ej2.rmp)
 
 
 

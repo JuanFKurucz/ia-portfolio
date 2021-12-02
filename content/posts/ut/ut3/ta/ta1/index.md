@@ -49,7 +49,7 @@ En base a los coeficientes aprendidos, ahora podemos aplicar estos en valores nu
 
 # Archivos:
 
-- [excel_1.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_1.xlsx)
+- [excel_1.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_1.xlsx?raw=true)
 
 
 # Aplicación en otro conjunto de datos
@@ -68,6 +68,6 @@ También se pueden ver los errores obtenidos a lo largo de estos ciclos:
 
 Todos estos valores y cálculos pueden ser vistos en el siguiente archivo:
 
-- [excel_2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_2.xlsx)
+- [excel_2.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/ta/ta1/excel_2.xlsx?raw=true)
 
 

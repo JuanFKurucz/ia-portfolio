@@ -53,5 +53,5 @@ Resultados para k=5 con preprocesamiento
 
 # Archivos
 
-[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta8/ut4parte2.rmp?raw=true)
+[Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4-2/ta/ta8/ut4parte2.rmp)
 

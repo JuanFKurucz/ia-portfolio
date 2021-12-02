@@ -38,10 +38,11 @@ Por último tenemos la variable objetivo:
 Para obtener los datos anteriores podemos usar diferentes herramientas, en este caso vamos a analizar los resultados de hacer esto en Excel y por otro lado en RapidMiner, con el objetivo de mostrar que los resultados son idénticos, y muchas herramientas pueden facilitarnos y acelerar nuestro trabajo:
 
 En este primera imagen podemos ver los resultados en RapidMiner
-![RapidMiner](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/rapidminer.png)
+![RapidMiner](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/rapidminer.png?raw=true)
 
 Y por último tenemos el desglose de información en Excel:
-![Excel](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/excel.png)
+![Excel](https://raw.githubusercontent.com/JuanFKurucz/ia-portfolio/main/content/posts/ut/ut1/pd/pd2/excel.png?raw=true)
 
-Archivo excel: [https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut1/pd/pd2/UT1_PD2%20-%20Juan%20Francisco%20Kurucz.xlsx?raw=true](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut1/pd/pd2/UT1_PD2%20-%20Juan%20Francisco%20Kurucz.xlsx?raw=true)
+# Archivos
+- [Archivo excel](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut1/pd/pd2/excel.xlsx?raw=true)
 

@@ -19,4 +19,4 @@ A continuación los resultados de aplicar este punto de división para el conjun
 
 ![Captura excel test](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd1/result_test.png?raw=true)
 
-[Archivo excel](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd1/gini.xlsx)
+[Archivo excel](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut4/pd/pd1/gini.xlsx?raw=true)

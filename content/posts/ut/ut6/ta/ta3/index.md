@@ -44,6 +44,6 @@ Los resultados del modelo de AdaBoost fueron:
 
 # Archivos
 
-- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/ut6ta3.rmp?raw=true)
+- [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/ut6ta3.rmp)
 
 

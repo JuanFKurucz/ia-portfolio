@@ -33,5 +33,5 @@ Los cálculos realizados son:
 
 
 Los resultados del mismo están provistos en el archivo: 
-- [ut3pd3.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd3/ut3pd3.xlsx)
+- [ut3pd3.xlsx](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut3/pd/pd3/ut3pd3.xlsx?raw=true)
 
