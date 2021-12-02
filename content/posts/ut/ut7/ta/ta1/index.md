@@ -2,7 +2,7 @@
 pathPrefix: '/'
 path: "/ut/ut7/ta1"
 cover: "./pipeline.png"
-date: "2021-11-19"
+date: "2021-11-23"
 title: "Métricas y evaluación de modelos en clasificación"
 published: true
 tags: ['Ajuste, evaluación y sintonía de modelos','RapidMiner','Accuracy','False Positive','False Negative','True Positive','True Negative','Sensitivity','Specificity','AUC','ROC','Validacion','Lift Chart','Matriz de confusion','Precision','Recall']
