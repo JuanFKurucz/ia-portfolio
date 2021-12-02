@@ -5,7 +5,7 @@ cover: "./pipeline.png"
 date: "2021-11-12"
 title: "Evaluando operadores de ensamble en RapidMiner"
 published: true
-tags: ['Ensambles','Naive Bayes','RapidMiner','Validation','Performance','Vote','KNN','Árbol de decisión','Iris Dataset','Bagging']
+tags: ['Ensambles','Naive Bayes','RapidMiner','Validación','Performance','Vote','KNN','Árbol de decisión','Iris Dataset','Bagging']
 ---
 
 En este artículo se evaluaran operadores de ensamble en RapidMiner

@@ -22,7 +22,7 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
 
  - Id: identificador de la casa vendida
  - SalesPrice: 
-    - Descripción: valor de venta de la casa en dolares, esta es nuestra variable objetivo a predecir.
+    - Descripción: valor de venta de la casa en dólares, esta es nuestra variable objetivo a predecir.
     - Tipo: real
     - Rango: 
         - Minimo: 34900
@@ -766,7 +766,13 @@ En esta descripción podemos ver que contamos con 81 columnas, las cuales son:
 
 Como se puede ver se tienen 47 atributos categóricos según la definición de los datos y 33 numéricos.
 
-## 3.2 Tratamiento de datos
+### Correlación de los atributos
+
+A continuación se muestra una matriz de correlación de los atributos
+
+![correlacion](https://github.com/JuanFKurucz/ia-portfolio/raw/main/content/posts/ca/ames-housing/assets/cor.png)
+
+# 2 Tratamiento de datos
 
 ## Atributos relacionados a la variable objetivo
 
@@ -791,17 +797,21 @@ También se identificó ruido en los datos, algunas etiquetas del conjunto de da
 
 Para el resto de valores faltantes se asignó el promedio.
 
-Por último, se identificó que hay instancias de atributos faltantes por lo cual nuestros LabelEncoders o OrdinalEncoders no pueden aprender directamente de los datos por lo que tendremos que proporcionar los posibles valores a mano para asegurar una funcionalidad al momento de predicción.
+Por último, se identificó que hay instancias de atributos faltantes por lo cual nuestros Label Encoders o Ordinal Encoders no pueden aprender directamente de los datos por lo que tendremos que proporcionar los posibles valores a mano para asegurar una funcionalidad al momento de predicción.
 
 ## Valores atipicos
 
-Viendo la distribución de los diferentes atributos se identificaron diferentes valores atípicos, con lo cual se deduce un 10% de contaminación, se aplicó el método de `IsolationForest` para poder remover valores atípicos del conjunto de datos.
+Viendo la distribución de los diferentes atributos se identificaron diferentes valores atípicos, con lo cual se deduce un 5% de contaminación, se aplicó el método de `IsolationForest` para poder remover valores atípicos del conjunto de datos.
+
+## Normalizacion
+
+Se normalizaron los datos utilizando los operadores `normalize`, `power_transform` y `MinMaxScaler` los cuales normalizan los datos, remueven el skewing y rescalan los mismos.
 
 ## Feature engineering
 
 Se aplicó PCA al conjunto de datos para sacar nuevos atributos que pudiesen explicar el conjunto de datos en una menor cantidad de estos.
 
-Se buscó que el resultado sea un `0.999999` explicativo, lo cual hizo que se obtengan 21 atributos, de los 75 que teníamos.
+Se buscó que el resultado sea un `0.99` explicativo, lo cual hizo que se obtengan 21 atributos, de los 75 que teníamos.
 
 De todas formas se comparó entrenar con este nuevo conjunto de atributos y con los 75 actuales.
 
@@ -809,37 +819,45 @@ De todas formas se comparó entrenar con este nuevo conjunto de atributos y con 
 
 Dado que se tienen alrededor de 1400 filas, esto parece suficiente para poder entrenar con un conjunto de train y val para que sea suficientemente rápido, ya que utilizar cross validation podría hacer que el proceso de entrenamiento sea bastante lento.
 
-Por lo cual se separó el dataset de entrenamiento en dos, se tomo el 80% para training y el 20% para validation.
+Por lo cual se separó el dataset de entrenamiento en dos, se tomó el 80% para training y el 20% para validation.
 
 # 4. Algoritmos y modelos
 
 Se plantearon diferentes modelos para resolver la problemática, los cuales fueron:
 - GradientBoostingRegressor
 - RandomForestRegressor
+- LinearRegression
 - VotingRegressor: conformado por
     - GradientBoostingRegressor
     - RandomForestRegressor
+    - LinearRegression
 
 Para entrenarlos se aplicó una grid search para algunos de ellos así mejorar el entrenamiento y llegar a un mejor resultado.
 
 ## 4.4 Métricas y comparaciones
 
-Se utilizó `mean absolute error` como criterio de evaluación en todos los modelos
+Se utilizó `mean squared error` como criterio de evaluación en todos los modelos
 
 
 | Modelo      | Mejor resultado atributos normales | Mejor resultado atributos PCA |
 | ----------- | ----------- | ----------- |
-| GradientBoostingRegressor      |   0.9144971369560132     |   0.8507757354832373     |
-| RandomForestRegressor   |   0.8700203490126724      |    0.7865576844284019    |
-| VotingRegressor   |    0.8932260482305077     |    0.8371666479865071    |
+| GradientBoostingRegressor      |   Score: 0.8643670774146404 MSE: 695368885.0772578 MAE: 18476.89677720735      |   Score: 0.8306832569088283 MSE: 868060590.4818074 MAE: 20632.072927773417 |
+| RandomForestRegressor   |   Score: 0.8277362876246328 MSE: 883169243.3549199 MAE: 20377.600225971993     |    Score: 0.7362705608028769 MSE: 1352099789.6446505 MAE: 27608.152944384066    |
+| LinearRegression   |   Score: 0.8010951842651011 MSE: 1019754034.0327637 MAE: 23285.70323370383      |   Score: 0.8211640348439492 MSE: 916864160.4991974 MAE: 21915.27245199096    |
+| VotingRegressor   |    Score: 0.8677060766526365 MSE: 678250355.6439778 MAE: 18076.072652212508     |    Score: 0.8427426890106939 MSE: 806233758.9464055 MAE: 20047.575564204973    |
+
 
 # 5. Conclusiones
 
-Como se puede ver entrenar con todos los atributos dio mejores resultados, puede que de todas formas sea más óptimo con más datos utilizar los seleccionados por PCA, ya que los entrenamientos serán más rápidos.
+Como se puede ver entrenar con todos los atributos dio mejores resultados, puede que de todas formas sea más óptimo con más datos utilizar los seleccionados por PCA, ya que los entrenamientos serán más rápidos. 
 
-De todas formas, se pudo ver que la selección de este caso de estudio fue interesante ya que se encontraron muchos detalles a reparar en el conjunto de datos y a analizar de cómo resolver.
+Podemos decir esto ya que no se obtuvo una diferencia abismal, el mejor modelo con atributos normales es el `VotingRegressor` al igual que con PCA, y en el primer caso dio un MAE (mean absolute error) de ~18076 vs ~20047 en el segundo caso, lo cual nos está diciendo que está errando en ~2000 usd entre cada modelo. 
 
+Teniendo en cuenta que el promedio de precios es ~180921, el mínimo precio: 34900.000000 y el máximo: 755000.000000. Podemos decir que para propiedades con alto precio, o uno similar al promedio, estamos dando un valor bastante acertado, pero para propiedades con precio chico podemos estar errando considerablemente.
+
+# 6. Archivos
 
 [Enlace al notebook completo](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ca/ames-housing/AMES.ipynb)
+
 
 

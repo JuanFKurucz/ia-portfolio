@@ -5,7 +5,7 @@ cover: "./residuals.png"
 date: "2021-09-03"
 title: "Utilización de Regresión Lineal en RapidMiner"
 published: true
-tags: ['Algoritmos lineales','Regresión lineal','RapidMiner','Residuo','Performance','Entrenamiento','Validacion','Pipeline','Colinear features','Bias','Feature selection','UCI','Housing Dataset']
+tags: ['Algoritmos lineales','Regresión lineal','RapidMiner','Residuo','Performance','Entrenamiento','Validación','Pipeline','Colinear features','Bias','Feature selection','UCI','Housing Dataset']
 ---
 
 En este artículo se busca utilizar regresión lineal en RapidMiner para atacar la problemática de deducir el precio de casas.

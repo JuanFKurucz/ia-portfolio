@@ -5,7 +5,7 @@ cover: "./pipeline.png"
 date: "2021-10-29"
 title: "Operadores de selección de atributos en RapidMiner"
 published: true
-tags: ['Algoritmos no lineales','Selección de Atributos','RapidMiner','Iris Dataset','Forward Selection','Backward Elimination','Evolutivo','Sonar Dataset','Performance','Cross validation','Naive bayes']
+tags: ['Algoritmos no lineales','Selección de Atributos','RapidMiner','Iris Dataset','Forward Selection','Backward Elimination','Evolutivo','Sonar Dataset','Performance','Cross Validation','Naive bayes']
 ---
 
 En este artículo se busca utilizar los diferentes operadores de selección de atributos en RapidMiner
