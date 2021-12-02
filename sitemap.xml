@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/AUC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Accuracy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/AdaBoost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Agglomerative</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Ajuste, evaluación y sintonía de modelos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Algoritmos no lineales</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Análisis Discriminante Lineal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -27,6 +29,8 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Entrenamiento</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Evolutivo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Excel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/False Negative</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/False Positive</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Feature selection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Filtrado</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Forward Selection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -42,8 +46,10 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/KNIME</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/KNN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Keras</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Lift Chart</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Machine Learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Matplotlib</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Matriz de confusion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Matriz de correlación</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Missing values</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Naive Bayes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -55,17 +61,22 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Pentaho</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Performance</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Pipeline</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Precision</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Pytorch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/ROC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Random Forest</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/RapidMiner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Recall</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Regresión Logística</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Regresión lineal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Residuo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/SEMMA</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Scikit-learn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Selección de Atributos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Sensitivity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Sonar Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Specificity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Split data</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Sports Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Supported Vector Machines</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -75,7 +86,10 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Titanic Disaster Dataset</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Top Down</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Tratamiento previo de los datos y fundamentos de los algoritmos de ML</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/True Negative</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/True Positive</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/UCI</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Validacion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Validación</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Vote</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/tags/Weka</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -113,6 +127,7 @@
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut5/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut6/ta3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ut/ut7/ta1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/ca/ames-housing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://juanfkurucz.com/ia-portfolio/ia-portfolio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
