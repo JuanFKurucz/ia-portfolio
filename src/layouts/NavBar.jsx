@@ -36,7 +36,7 @@ const NavBar = () => (
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/tags">Etiquetas</Link>
-      <Link to="https://github.com/JuanFKurucz/ia-portfolio" target="_blank">Github</Link>
+      <Link to="https://github.com/JuanFKurucz/ia-portfolio" target="_blank">GitHub</Link>
     </Nav>
   </Headroom>
 );

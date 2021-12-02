@@ -26,6 +26,13 @@ En el cual tenemos 2 flujos
 ![cross1](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/cross1.png?raw=true)
 ![cross2](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/cross2.png?raw=true)
 
+## Random Forest
+
+RandomForest es un algoritmo que produce "un bosque aleatorio", esto se hace en base a construir un cierto número de árboles de decisión, estos árboles son creados dados ciertos parámetros tomando decisiones aleatorias. Por ende, RandomForest termina siendo un bosque ya que contiene múltiples árboles diferentes creados aleatoriamente para resolver la problemática.
+
+## AdaBoost
+
+Adaptive Boosting es un algoritmo que genera una conjunción de clasificadores para incrementar su performance en base a ir mejorando los resultados de predicción de algoritmos previos.
 
 # Resultados
 
@@ -45,5 +52,6 @@ Los resultados del modelo de AdaBoost fueron:
 # Archivos
 
 - [Archivo de RapidMiner](https://github.com/JuanFKurucz/ia-portfolio/blob/main/content/posts/ut/ut6/ta/ta3/ut6ta3.rmp)
+
 
 
